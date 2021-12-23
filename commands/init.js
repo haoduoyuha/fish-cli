@@ -1,7 +1,10 @@
 const path = require("path");
 const inquirer = require("inquirer");
 const Command = require("./command");
+const Template = require("../lib/Template");
 const checkTargetDir = require("../lib/checkTargetDir");
+const { getRepoList } = require("../lib/http");
+const { withSpinner } = require("../lib/spinner");
 
 class InitCommand extends Command {
   constructor(projectName) {
@@ -50,9 +53,25 @@ class InitCommand extends Command {
     };
   }
 
-  async getTemplateInfo() {}
+  async getTemplateInfo() {
+    const repoList = await withSpinner(getRepoList, {
+      text: "正在获取远程模板信息，请稍等...",
+    });
+    console.log(repoList);
 
-  async downloadTemplate() {}
+    return repoList;
+  }
+
+  async downloadTemplate() {
+    const template = new Template({
+      name: this.projectName,
+    });
+    if (template.exist()) {
+      template.update();
+    } else {
+      template.install();
+    }
+  }
 }
 
 function factory(projectName) {
