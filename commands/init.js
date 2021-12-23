@@ -1,7 +1,7 @@
 const path = require("path");
 const inquirer = require("inquirer");
 const Command = require("./command");
-const Template = require("../lib/Template");
+const Package = require("../lib/package");
 const checkTargetDir = require("../lib/checkTargetDir");
 const { getRepoList } = require("../lib/http");
 const { withSpinner } = require("../lib/spinner");
@@ -10,20 +10,21 @@ class InitCommand extends Command {
   constructor(projectName) {
     super();
     this.projectName = projectName;
+    this.targetPath = this.resolveTargetDir();
     this.projectInfo = {};
   }
 
   async init(cliOptions) {
-    // 1. 获取目标文件夹
-    const targetDir = this.resolveTargetDir();
     // 1. 目录非空检查
-    await checkTargetDir(targetDir, cliOptions);
+    await checkTargetDir(this.targetPath, cliOptions);
     // 2. 询问项目信息
     await this.getProjectInfo();
     // 3. 获取远程项目模板
     const templateInfo = await this.getTemplateInfo();
-    // 3. 执行下载逻辑
+    // 4. 执行下载逻辑
     await this.downloadTemplate(templateInfo);
+    // 5. 拷贝项目模板到目标目录，并执行模板渲染逻辑
+    this.copyAndRenderTemplate();
   }
 
   resolveTargetDir() {
@@ -63,15 +64,17 @@ class InitCommand extends Command {
   }
 
   async downloadTemplate() {
-    const template = new Template({
+    const _package = new Package({
       name: this.projectName,
     });
     if (template.exist()) {
-      template.update();
+      _package.update();
     } else {
-      template.install();
+      _package.install();
     }
   }
+
+  copyAndRenderTemplate() {}
 }
 
 function factory(projectName) {
