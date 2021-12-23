@@ -1,0 +1,28 @@
+{
+  "name": "fish-cli",
+  "version": "1.0.0",
+  "description": "前端cli脚手架工具",
+  "main": "index.js",
+  "bin": {
+    "fish-cli": "bin/index.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haoduoyuha/fish-cli.git"
+  },
+  "keywords": [
+    "脚手架"
+  ],
+  "author": "好多鱼",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haoduoyuha/fish-cli/issues"
+  },
+  "homepage": "https://github.com/haoduoyuha/fish-cli#readme"
+}
