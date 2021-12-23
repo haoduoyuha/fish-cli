@@ -8,10 +8,10 @@ const { withSpinner } = require("../lib/utils/spinner");
 
 /**
  * @description initCommand创建模板的基本流程
- * 目录非空检查 ------> inquirer获取命令行输入配置信息 ------> 通过github，restApi获取远程仓库列表 --------> 执行下载逻辑
- * 下载逻辑：查看本地用户主目录是否存在当前模板，存在，则更新模板，否则重新下载 ------> 根据用户输入的配置信息 ejs动态渲染内容 ----> 将渲染后的文件写入当前
- * 目录 ----> 开启node子进程，进行依赖安装 ------> 结束
- *
+ * 目录重名检查 ------> 通过github，restApi获取远程仓库列表 --------> 执行创建逻辑
+ * 创建流程：查看本地缓存目录是否存在当前模板，存在，则更新模板，否则重新下载 ------> 根据是否有meta文件判断模板是否为自定义模板，是则inquirer询问用户输入选
+ * 择----> 获取根据用户输入的配置信息 ejs动态渲染内容 -----> 将渲染后的文件写入当前目录，不是则直接拷贝到当前目录 -----> 开启node子进程，进行依赖安装
+ * ----> 结束
  */
 class InitCommand extends Command {
   constructor(projectName) {
@@ -24,14 +24,10 @@ class InitCommand extends Command {
   async init(cliOptions) {
     // 检查目标目录是否存在
     await checkTargetPathExist(this.targetPath, cliOptions);
-    // 获取用户命令行输入信息
-    await this.getProjectInfo();
     // 获取远程仓库模板列表
     const templateInfo = await this.getTemplateInfo();
-    // 执行下载逻辑
-    await this.downloadTemplate(templateInfo);
-    // 渲染并拷贝到当前目录
-    this.renderAndCopyTemplate();
+    // 执行创建逻辑
+    await this.create(templateInfo);
   }
 
   resolveTargetDir() {
@@ -70,18 +66,16 @@ class InitCommand extends Command {
     return repoList;
   }
 
-  async downloadTemplate() {
+  async create() {
     const _package = new Package({
       name: this.projectName,
     });
     if (_package.exist()) {
-      _package.update();
+      await _package.update();
     } else {
-      _package.install();
+      await _package.install();
     }
   }
-
-  renderAndCopyTemplate() {}
 }
 
 function factory(projectName) {
