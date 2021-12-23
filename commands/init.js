@@ -1,7 +1,7 @@
 const path = require("path");
 const inquirer = require("inquirer");
 const Command = require("./command");
-const Package = require("../lib/package");
+const Package = require("../lib/Package");
 const checkTargetPathExist = require("../lib/checkTargetPathExist");
 const { getRepoList } = require("../lib/utils/getRepoInfo");
 const { withSpinner } = require("../lib/utils/spinner");
@@ -25,9 +25,9 @@ class InitCommand extends Command {
     // 检查目标目录是否存在
     await checkTargetPathExist(this.targetPath, cliOptions);
     // 获取远程仓库模板列表
-    const templateInfo = await this.getTemplateInfo();
+    // const templateInfo = await this.getTemplateInfo();
     // 执行创建逻辑
-    await this.create(templateInfo);
+    await this.create();
   }
 
   resolveTargetDir() {
@@ -60,7 +60,7 @@ class InitCommand extends Command {
   async getTemplateInfo() {
     const repoList = await withSpinner(getRepoList, {
       text: "正在获取远程模板信息，请稍等...",
-    });
+    })();
     console.log(repoList);
 
     return repoList;

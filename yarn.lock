@@ -2,543 +2,1312 @@
 # yarn lockfile v1
 
 
-ansi-escapes@^4.2.1:
-  version "4.3.2"
-  resolved "http://registry.npm.souche-inc.com/ansi-escapes/download/ansi-escapes-4.3.2.tgz"
-  integrity sha1-ayKR0dt9mLZSHV8e+kLQ86n+tl4=
-  dependencies:
-    type-fest "^0.21.3"
+"@sindresorhus/is@^0.7.0":
+  "integrity" "sha512-ONhaKPIufzzrlNbqtWFFd+jlnemX6lJAgq9ZeiZtS7I1PIf/la7CW4m83rTXRnVnsMbW2k56pGYu7AUFJD9Pow=="
+  "resolved" "https://registry.npmjs.org/@sindresorhus/is/-/is-0.7.0.tgz"
+  "version" "0.7.0"
 
-ansi-regex@^5.0.1:
-  version "5.0.1"
-  resolved "http://registry.npm.souche-inc.com/ansi-regex/download/ansi-regex-5.0.1.tgz"
-  integrity sha1-CCyyyJyf6GWaMRpTvWpNxTAdswQ=
-
-ansi-styles@^4.1.0:
-  version "4.3.0"
-  resolved "http://registry.npm.souche-inc.com/ansi-styles/download/ansi-styles-4.3.0.tgz"
-  integrity sha1-7dgDYornHATIWuegkG7a00tkiTc=
+"ansi-escapes@^4.2.1":
+  "integrity" "sha1-ayKR0dt9mLZSHV8e+kLQ86n+tl4="
+  "resolved" "http://registry.npm.souche-inc.com/ansi-escapes/download/ansi-escapes-4.3.2.tgz"
+  "version" "4.3.2"
   dependencies:
-    color-convert "^2.0.1"
+    "type-fest" "^0.21.3"
+
+"ansi-regex@^5.0.1":
+  "integrity" "sha1-CCyyyJyf6GWaMRpTvWpNxTAdswQ="
+  "resolved" "http://registry.npm.souche-inc.com/ansi-regex/download/ansi-regex-5.0.1.tgz"
+  "version" "5.0.1"
+
+"ansi-styles@^4.1.0":
+  "integrity" "sha1-7dgDYornHATIWuegkG7a00tkiTc="
+  "resolved" "http://registry.npm.souche-inc.com/ansi-styles/download/ansi-styles-4.3.0.tgz"
+  "version" "4.3.0"
+  dependencies:
+    "color-convert" "^2.0.1"
 
 "aproba@^1.0.3 || ^2.0.0":
-  version "2.0.0"
-  resolved "http://registry.npm.souche-inc.com/aproba/download/aproba-2.0.0.tgz"
-  integrity sha1-UlILiuW1aSFbNU78DKo/4eRaitw=
+  "integrity" "sha1-UlILiuW1aSFbNU78DKo/4eRaitw="
+  "resolved" "http://registry.npm.souche-inc.com/aproba/download/aproba-2.0.0.tgz"
+  "version" "2.0.0"
 
-are-we-there-yet@^2.0.0:
-  version "2.0.0"
-  resolved "http://registry.npm.souche-inc.com/are-we-there-yet/download/are-we-there-yet-2.0.0.tgz"
-  integrity sha1-Ny4Oe9J52OlMZTqqH2cgCIS/Phw=
+"archive-type@^4.0.0":
+  "integrity" "sha1-+S5yIzBW38aWlHJ0nCZ72wRrHXA="
+  "resolved" "https://registry.npmjs.org/archive-type/-/archive-type-4.0.0.tgz"
+  "version" "4.0.0"
   dependencies:
-    delegates "^1.0.0"
-    readable-stream "^3.6.0"
+    "file-type" "^4.2.0"
 
-axios@^0.24.0:
-  version "0.24.0"
-  resolved "http://registry.npm.souche-inc.com/axios/download/axios-0.24.0.tgz#804e6fa1e4b9c5288501dd9dff56a7a0940d20d6"
-  integrity sha1-gE5voeS5xSiFAd2d/1anoJQNINY=
+"are-we-there-yet@^2.0.0":
+  "integrity" "sha1-Ny4Oe9J52OlMZTqqH2cgCIS/Phw="
+  "resolved" "http://registry.npm.souche-inc.com/are-we-there-yet/download/are-we-there-yet-2.0.0.tgz"
+  "version" "2.0.0"
   dependencies:
-    follow-redirects "^1.14.4"
+    "delegates" "^1.0.0"
+    "readable-stream" "^3.6.0"
 
-base64-js@^1.3.1:
-  version "1.5.1"
-  resolved "http://registry.npm.souche-inc.com/base64-js/download/base64-js-1.5.1.tgz"
-  integrity sha1-GxtEAWClv3rUC2UPCVljSBkDkwo=
-
-bl@^4.1.0:
-  version "4.1.0"
-  resolved "http://registry.npm.souche-inc.com/bl/download/bl-4.1.0.tgz"
-  integrity sha1-RRU1JkGCvsL7vIOmKrmM8R2fezo=
+"axios@^0.24.0":
+  "integrity" "sha512-Q6cWsys88HoPgAaFAVUb0WpPk0O8iTeisR9IMqy9G8AbO4NlpVknrnQS03zzF9PGAWgO3cgletO3VjV/P7VztA=="
+  "resolved" "https://registry.npmjs.org/axios/-/axios-0.24.0.tgz"
+  "version" "0.24.0"
   dependencies:
-    buffer "^5.5.0"
-    inherits "^2.0.4"
-    readable-stream "^3.4.0"
+    "follow-redirects" "^1.14.4"
 
-buffer@^5.5.0:
-  version "5.7.1"
-  resolved "http://registry.npm.souche-inc.com/buffer/download/buffer-5.7.1.tgz"
-  integrity sha1-umLnwTEzBTWCGXFghRqPZI6Z7tA=
+"balanced-match@^1.0.0":
+  "integrity" "sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw=="
+  "resolved" "https://registry.npmjs.org/balanced-match/-/balanced-match-1.0.2.tgz"
+  "version" "1.0.2"
+
+"base64-js@^1.3.1":
+  "integrity" "sha1-GxtEAWClv3rUC2UPCVljSBkDkwo="
+  "resolved" "http://registry.npm.souche-inc.com/base64-js/download/base64-js-1.5.1.tgz"
+  "version" "1.5.1"
+
+"bl@^1.0.0":
+  "integrity" "sha512-pvcNpa0UU69UT341rO6AYy4FVAIkUHuZXRIWbq+zHnsVcRzDDjIAhGuuYoi0d//cwIwtt4pkpKycWEfjdV+vww=="
+  "resolved" "https://registry.npmjs.org/bl/-/bl-1.2.3.tgz"
+  "version" "1.2.3"
   dependencies:
-    base64-js "^1.3.1"
-    ieee754 "^1.1.13"
+    "readable-stream" "^2.3.5"
+    "safe-buffer" "^5.1.1"
 
-chalk@^4.1.0, chalk@^4.1.1, chalk@^4.1.2:
-  version "4.1.2"
-  resolved "https://registry.npmjs.org/chalk/-/chalk-4.1.2.tgz"
-  integrity sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==
+"bl@^4.1.0":
+  "integrity" "sha1-RRU1JkGCvsL7vIOmKrmM8R2fezo="
+  "resolved" "http://registry.npm.souche-inc.com/bl/download/bl-4.1.0.tgz"
+  "version" "4.1.0"
   dependencies:
-    ansi-styles "^4.1.0"
-    supports-color "^7.1.0"
+    "buffer" "^5.5.0"
+    "inherits" "^2.0.4"
+    "readable-stream" "^3.4.0"
 
-chardet@^0.7.0:
-  version "0.7.0"
-  resolved "http://registry.npm.souche-inc.com/chardet/download/chardet-0.7.0.tgz"
-  integrity sha1-kAlISfCTfy7twkJdDSip5fDLrZ4=
-
-cli-cursor@^3.1.0:
-  version "3.1.0"
-  resolved "http://registry.npm.souche-inc.com/cli-cursor/download/cli-cursor-3.1.0.tgz"
-  integrity sha1-JkMFp65JDR0Dvwybp8kl0XU68wc=
+"brace-expansion@^1.1.7":
+  "integrity" "sha512-iCuPHDFgrHX7H2vEI/5xpz07zSHB00TpugqhmYtVmMO6518mCuRMoOYFldEBl0g187ufozdaHgWKcYFb61qGiA=="
+  "resolved" "https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.11.tgz"
+  "version" "1.1.11"
   dependencies:
-    restore-cursor "^3.1.0"
+    "balanced-match" "^1.0.0"
+    "concat-map" "0.0.1"
 
-cli-spinners@^2.5.0:
-  version "2.6.1"
-  resolved "http://registry.npm.souche-inc.com/cli-spinners/download/cli-spinners-2.6.1.tgz"
-  integrity sha1-rclU6+KBw3pjGb+kAebdJIj/tw0=
+"buffer-alloc-unsafe@^1.1.0":
+  "integrity" "sha512-TEM2iMIEQdJ2yjPJoSIsldnleVaAk1oW3DBVUykyOLsEsFmEc9kn+SFFPz+gl54KQNxlDnAwCXosOS9Okx2xAg=="
+  "resolved" "https://registry.npmjs.org/buffer-alloc-unsafe/-/buffer-alloc-unsafe-1.1.0.tgz"
+  "version" "1.1.0"
 
-cli-width@^3.0.0:
-  version "3.0.0"
-  resolved "http://registry.npm.souche-inc.com/cli-width/download/cli-width-3.0.0.tgz"
-  integrity sha1-ovSEN6LKqaIkNueUvwceyeYc7fY=
-
-clone@^1.0.2:
-  version "1.0.4"
-  resolved "http://registry.npm.souche-inc.com/clone/download/clone-1.0.4.tgz"
-  integrity sha1-2jCcwmPfFZlMaIypAheco8fNfH4=
-
-color-convert@^2.0.1:
-  version "2.0.1"
-  resolved "http://registry.npm.souche-inc.com/color-convert/download/color-convert-2.0.1.tgz"
-  integrity sha1-ctOmjVmMm9s68q0ehPIdiWq9TeM=
+"buffer-alloc@^1.2.0":
+  "integrity" "sha512-CFsHQgjtW1UChdXgbyJGtnm+O/uLQeZdtbDo8mfUgYXCHSM1wgrVxXm6bSyrUuErEb+4sYVGCzASBRot7zyrow=="
+  "resolved" "https://registry.npmjs.org/buffer-alloc/-/buffer-alloc-1.2.0.tgz"
+  "version" "1.2.0"
   dependencies:
-    color-name "~1.1.4"
+    "buffer-alloc-unsafe" "^1.1.0"
+    "buffer-fill" "^1.0.0"
 
-color-name@~1.1.4:
-  version "1.1.4"
-  resolved "http://registry.npm.souche-inc.com/color-name/download/color-name-1.1.4.tgz"
-  integrity sha1-wqCah6y95pVD3m9j+jmVyCbFNqI=
+"buffer-crc32@~0.2.3":
+  "integrity" "sha1-DTM+PwDqxQqhRUq9MO+MKl2ackI="
+  "resolved" "https://registry.npmjs.org/buffer-crc32/-/buffer-crc32-0.2.13.tgz"
+  "version" "0.2.13"
 
-color-support@^1.1.2:
-  version "1.1.3"
-  resolved "http://registry.npm.souche-inc.com/color-support/download/color-support-1.1.3.tgz"
-  integrity sha1-k4NDeaHMmgxh+C9S8NBDIiUb1aI=
+"buffer-fill@^1.0.0":
+  "integrity" "sha1-+PeLdniYiO858gXNY39o5wISKyw="
+  "resolved" "https://registry.npmjs.org/buffer-fill/-/buffer-fill-1.0.0.tgz"
+  "version" "1.0.0"
 
-commander@^8.3.0:
-  version "8.3.0"
-  resolved "http://registry.npm.souche-inc.com/commander/download/commander-8.3.0.tgz"
-  integrity sha1-SDfqGy2me5xhamevuw+v7lZ7ymY=
-
-console-control-strings@^1.0.0, console-control-strings@^1.1.0:
-  version "1.1.0"
-  resolved "http://registry.npm.souche-inc.com/console-control-strings/download/console-control-strings-1.1.0.tgz"
-  integrity sha1-PXz0Rk22RG6mRL9LOVB/mFEAjo4=
-
-defaults@^1.0.3:
-  version "1.0.3"
-  resolved "http://registry.npm.souche-inc.com/defaults/download/defaults-1.0.3.tgz"
-  integrity sha1-xlYFHpgX2f8I7YgUd/P+QBnz730=
+"buffer@^5.2.1", "buffer@^5.5.0":
+  "integrity" "sha1-umLnwTEzBTWCGXFghRqPZI6Z7tA="
+  "resolved" "http://registry.npm.souche-inc.com/buffer/download/buffer-5.7.1.tgz"
+  "version" "5.7.1"
   dependencies:
-    clone "^1.0.2"
+    "base64-js" "^1.3.1"
+    "ieee754" "^1.1.13"
 
-delegates@^1.0.0:
-  version "1.0.0"
-  resolved "http://registry.npm.souche-inc.com/delegates/download/delegates-1.0.0.tgz"
-  integrity sha1-hMbhWbgZBP3KWaDvRM2HDTElD5o=
-
-emoji-regex@^8.0.0:
-  version "8.0.0"
-  resolved "http://registry.npm.souche-inc.com/emoji-regex/download/emoji-regex-8.0.0.tgz"
-  integrity sha1-6Bj9ac5cz8tARZT4QpY79TFkzDc=
-
-escape-string-regexp@^1.0.5:
-  version "1.0.5"
-  resolved "http://registry.npm.souche-inc.com/escape-string-regexp/download/escape-string-regexp-1.0.5.tgz"
-  integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
-
-external-editor@^3.0.3:
-  version "3.1.0"
-  resolved "http://registry.npm.souche-inc.com/external-editor/download/external-editor-3.1.0.tgz"
-  integrity sha1-ywP3QL764D6k0oPK7SdBqD8zVJU=
+"cacheable-request@^2.1.1":
+  "integrity" "sha1-DYCIAbY0KtM8kd+dC0TcCbkeXD0="
+  "resolved" "https://registry.npmjs.org/cacheable-request/-/cacheable-request-2.1.4.tgz"
+  "version" "2.1.4"
   dependencies:
-    chardet "^0.7.0"
-    iconv-lite "^0.4.24"
-    tmp "^0.0.33"
+    "clone-response" "1.0.2"
+    "get-stream" "3.0.0"
+    "http-cache-semantics" "3.8.1"
+    "keyv" "3.0.0"
+    "lowercase-keys" "1.0.0"
+    "normalize-url" "2.0.1"
+    "responselike" "1.0.2"
 
-figures@^3.0.0:
-  version "3.2.0"
-  resolved "http://registry.npm.souche-inc.com/figures/download/figures-3.2.0.tgz"
-  integrity sha1-YlwYvSk8YE3EqN2y/r8MiDQXRq8=
+"caw@^2.0.1":
+  "integrity" "sha512-Cg8/ZSBEa8ZVY9HspcGUYaK63d/bN7rqS3CYCzEGUxuYv6UlmcjzDUz2fCFFHyTvUW5Pk0I+3hkA3iXlIj6guA=="
+  "resolved" "https://registry.npmjs.org/caw/-/caw-2.0.1.tgz"
+  "version" "2.0.1"
   dependencies:
-    escape-string-regexp "^1.0.5"
+    "get-proxy" "^2.0.0"
+    "isurl" "^1.0.0-alpha5"
+    "tunnel-agent" "^0.6.0"
+    "url-to-options" "^1.0.1"
 
-find-up@^4.0.0:
-  version "4.1.0"
-  resolved "http://registry.npm.souche-inc.com/find-up/download/find-up-4.1.0.tgz"
-  integrity sha1-l6/n1s3AvFkoWEt8jXsW6KmqXRk=
+"chalk@^4.1.0", "chalk@^4.1.1", "chalk@^4.1.2":
+  "integrity" "sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA=="
+  "resolved" "https://registry.npmjs.org/chalk/-/chalk-4.1.2.tgz"
+  "version" "4.1.2"
   dependencies:
-    locate-path "^5.0.0"
-    path-exists "^4.0.0"
+    "ansi-styles" "^4.1.0"
+    "supports-color" "^7.1.0"
 
-follow-redirects@^1.14.4:
-  version "1.14.6"
-  resolved "http://registry.npm.souche-inc.com/follow-redirects/download/follow-redirects-1.14.6.tgz#8cfb281bbc035b3c067d6cd975b0f6ade6e855cd"
-  integrity sha1-jPsoG7wDWzwGfWzZdbD2reboVc0=
+"chardet@^0.7.0":
+  "integrity" "sha1-kAlISfCTfy7twkJdDSip5fDLrZ4="
+  "resolved" "http://registry.npm.souche-inc.com/chardet/download/chardet-0.7.0.tgz"
+  "version" "0.7.0"
 
-fs-extra@^10.0.0:
-  version "10.0.0"
-  resolved "http://registry.npm.souche-inc.com/fs-extra/download/fs-extra-10.0.0.tgz"
-  integrity sha1-n/YbZV3eU/s0qC34S7IUzoAuF8E=
+"cli-cursor@^3.1.0":
+  "integrity" "sha1-JkMFp65JDR0Dvwybp8kl0XU68wc="
+  "resolved" "http://registry.npm.souche-inc.com/cli-cursor/download/cli-cursor-3.1.0.tgz"
+  "version" "3.1.0"
   dependencies:
-    graceful-fs "^4.2.0"
-    jsonfile "^6.0.1"
-    universalify "^2.0.0"
+    "restore-cursor" "^3.1.0"
 
-gauge@^4.0.0:
-  version "4.0.0"
-  resolved "http://registry.npm.souche-inc.com/gauge/download/gauge-4.0.0.tgz"
-  integrity sha1-r7oHqgN0qTxiGWA7H7g+qiJk2Pg=
+"cli-spinners@^2.5.0":
+  "integrity" "sha1-rclU6+KBw3pjGb+kAebdJIj/tw0="
+  "resolved" "http://registry.npm.souche-inc.com/cli-spinners/download/cli-spinners-2.6.1.tgz"
+  "version" "2.6.1"
+
+"cli-width@^3.0.0":
+  "integrity" "sha1-ovSEN6LKqaIkNueUvwceyeYc7fY="
+  "resolved" "http://registry.npm.souche-inc.com/cli-width/download/cli-width-3.0.0.tgz"
+  "version" "3.0.0"
+
+"clone-response@1.0.2":
+  "integrity" "sha1-0dyXOSAxTfZ/vrlCI7TuNQI56Ws="
+  "resolved" "https://registry.npmjs.org/clone-response/-/clone-response-1.0.2.tgz"
+  "version" "1.0.2"
   dependencies:
-    ansi-regex "^5.0.1"
-    aproba "^1.0.3 || ^2.0.0"
-    color-support "^1.1.2"
-    console-control-strings "^1.0.0"
-    has-unicode "^2.0.1"
-    signal-exit "^3.0.0"
-    string-width "^4.2.3"
-    strip-ansi "^6.0.1"
-    wide-align "^1.1.2"
+    "mimic-response" "^1.0.0"
 
-graceful-fs@^4.1.6, graceful-fs@^4.2.0:
-  version "4.2.8"
-  resolved "http://registry.npm.souche-inc.com/graceful-fs/download/graceful-fs-4.2.8.tgz"
-  integrity sha1-5BK40z9eAGWTy9PO5t+fLOu+gCo=
+"clone@^1.0.2":
+  "integrity" "sha1-2jCcwmPfFZlMaIypAheco8fNfH4="
+  "resolved" "http://registry.npm.souche-inc.com/clone/download/clone-1.0.4.tgz"
+  "version" "1.0.4"
 
-has-flag@^4.0.0:
-  version "4.0.0"
-  resolved "http://registry.npm.souche-inc.com/has-flag/download/has-flag-4.0.0.tgz"
-  integrity sha1-lEdx/ZyByBJlxNaUGGDaBrtZR5s=
-
-has-unicode@^2.0.1:
-  version "2.0.1"
-  resolved "http://registry.npm.souche-inc.com/has-unicode/download/has-unicode-2.0.1.tgz"
-  integrity sha1-4Ob+aijPUROIVeCG0Wkedx3iqLk=
-
-iconv-lite@^0.4.24:
-  version "0.4.24"
-  resolved "http://registry.npm.souche-inc.com/iconv-lite/download/iconv-lite-0.4.24.tgz"
-  integrity sha1-ICK0sl+93CHS9SSXSkdKr+czkIs=
+"color-convert@^2.0.1":
+  "integrity" "sha1-ctOmjVmMm9s68q0ehPIdiWq9TeM="
+  "resolved" "http://registry.npm.souche-inc.com/color-convert/download/color-convert-2.0.1.tgz"
+  "version" "2.0.1"
   dependencies:
-    safer-buffer ">= 2.1.2 < 3"
+    "color-name" "~1.1.4"
 
-ieee754@^1.1.13:
-  version "1.2.1"
-  resolved "http://registry.npm.souche-inc.com/ieee754/download/ieee754-1.2.1.tgz"
-  integrity sha1-jrehCmP/8l0VpXsAFYbRd9Gw01I=
+"color-name@~1.1.4":
+  "integrity" "sha1-wqCah6y95pVD3m9j+jmVyCbFNqI="
+  "resolved" "http://registry.npm.souche-inc.com/color-name/download/color-name-1.1.4.tgz"
+  "version" "1.1.4"
 
-import-local@^3.0.3:
-  version "3.0.3"
-  resolved "http://registry.npm.souche-inc.com/import-local/download/import-local-3.0.3.tgz"
-  integrity sha1-TVHCxJXKk5PaJZ7Ga2LgIpICEeA=
+"color-support@^1.1.2":
+  "integrity" "sha1-k4NDeaHMmgxh+C9S8NBDIiUb1aI="
+  "resolved" "http://registry.npm.souche-inc.com/color-support/download/color-support-1.1.3.tgz"
+  "version" "1.1.3"
+
+"commander@^2.8.1":
+  "integrity" "sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ=="
+  "resolved" "https://registry.npmjs.org/commander/-/commander-2.20.3.tgz"
+  "version" "2.20.3"
+
+"commander@^8.3.0":
+  "integrity" "sha1-SDfqGy2me5xhamevuw+v7lZ7ymY="
+  "resolved" "http://registry.npm.souche-inc.com/commander/download/commander-8.3.0.tgz"
+  "version" "8.3.0"
+
+"concat-map@0.0.1":
+  "integrity" "sha1-2Klr13/Wjfd5OnMDajug1UBdR3s="
+  "resolved" "https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz"
+  "version" "0.0.1"
+
+"config-chain@^1.1.11":
+  "integrity" "sha512-qj+f8APARXHrM0hraqXYb2/bOVSV4PvJQlNZ/DVj0QrmNM2q2euizkeuVckQ57J+W0mRH6Hvi+k50M4Jul2VRQ=="
+  "resolved" "https://registry.npmjs.org/config-chain/-/config-chain-1.1.13.tgz"
+  "version" "1.1.13"
   dependencies:
-    pkg-dir "^4.2.0"
-    resolve-cwd "^3.0.0"
+    "ini" "^1.3.4"
+    "proto-list" "~1.2.1"
 
-inherits@^2.0.3, inherits@^2.0.4:
-  version "2.0.4"
-  resolved "http://registry.npm.souche-inc.com/inherits/download/inherits-2.0.4.tgz"
-  integrity sha1-D6LGT5MpF8NDOg3tVTY6rjdBa3w=
+"console-control-strings@^1.0.0", "console-control-strings@^1.1.0":
+  "integrity" "sha1-PXz0Rk22RG6mRL9LOVB/mFEAjo4="
+  "resolved" "http://registry.npm.souche-inc.com/console-control-strings/download/console-control-strings-1.1.0.tgz"
+  "version" "1.1.0"
 
-inquirer@^8.2.0:
-  version "8.2.0"
-  resolved "http://registry.npm.souche-inc.com/inquirer/download/inquirer-8.2.0.tgz"
-  integrity sha1-9E8AjdNEu/xLMAMfRdmE4DSjrDo=
+"content-disposition@^0.5.2":
+  "integrity" "sha512-FveZTNuGw04cxlAiWbzi6zTAL/lhehaWbTtgluJh4/E95DqMwTmha3KZN1aAWA8cFIhHzMZUvLevkw5Rqk+tSQ=="
+  "resolved" "https://registry.npmjs.org/content-disposition/-/content-disposition-0.5.4.tgz"
+  "version" "0.5.4"
   dependencies:
-    ansi-escapes "^4.2.1"
-    chalk "^4.1.1"
-    cli-cursor "^3.1.0"
-    cli-width "^3.0.0"
-    external-editor "^3.0.3"
-    figures "^3.0.0"
-    lodash "^4.17.21"
-    mute-stream "0.0.8"
-    ora "^5.4.1"
-    run-async "^2.4.0"
-    rxjs "^7.2.0"
-    string-width "^4.1.0"
-    strip-ansi "^6.0.0"
-    through "^2.3.6"
+    "safe-buffer" "5.2.1"
 
-is-fullwidth-code-point@^3.0.0:
-  version "3.0.0"
-  resolved "http://registry.npm.souche-inc.com/is-fullwidth-code-point/download/is-fullwidth-code-point-3.0.0.tgz"
-  integrity sha1-8Rb4Bk/pCz94RKOJl8C3UFEmnx0=
+"core-util-is@~1.0.0":
+  "integrity" "sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ=="
+  "resolved" "https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.3.tgz"
+  "version" "1.0.3"
 
-is-interactive@^1.0.0:
-  version "1.0.0"
-  resolved "http://registry.npm.souche-inc.com/is-interactive/download/is-interactive-1.0.0.tgz"
-  integrity sha1-zqbmrlyHCnsKAAQHC3tYfgJSkS4=
+"decode-uri-component@^0.2.0":
+  "integrity" "sha1-6zkTMzRYd1y4TNGh+uBiEGu4dUU="
+  "resolved" "https://registry.npmjs.org/decode-uri-component/-/decode-uri-component-0.2.0.tgz"
+  "version" "0.2.0"
 
-is-unicode-supported@^0.1.0:
-  version "0.1.0"
-  resolved "http://registry.npm.souche-inc.com/is-unicode-supported/download/is-unicode-supported-0.1.0.tgz"
-  integrity sha1-PybHaoCVk7Ur+i7LVxDtJ3m1Iqc=
-
-jsonfile@^6.0.1:
-  version "6.1.0"
-  resolved "http://registry.npm.souche-inc.com/jsonfile/download/jsonfile-6.1.0.tgz"
-  integrity sha1-vFWyY0eTxnnsZAMJTrE2mKbsCq4=
+"decompress-response@^3.3.0":
+  "integrity" "sha1-gKTdMjdIOEv6JICDYirt7Jgq3/M="
+  "resolved" "https://registry.npmjs.org/decompress-response/-/decompress-response-3.3.0.tgz"
+  "version" "3.3.0"
   dependencies:
-    universalify "^2.0.0"
+    "mimic-response" "^1.0.0"
+
+"decompress-tar@^4.0.0", "decompress-tar@^4.1.0", "decompress-tar@^4.1.1":
+  "integrity" "sha512-JdJMaCrGpB5fESVyxwpCx4Jdj2AagLmv3y58Qy4GE6HMVjWz1FeVQk1Ct4Kye7PftcdOo/7U7UKzYBJgqnGeUQ=="
+  "resolved" "https://registry.npmjs.org/decompress-tar/-/decompress-tar-4.1.1.tgz"
+  "version" "4.1.1"
+  dependencies:
+    "file-type" "^5.2.0"
+    "is-stream" "^1.1.0"
+    "tar-stream" "^1.5.2"
+
+"decompress-tarbz2@^4.0.0":
+  "integrity" "sha512-s88xLzf1r81ICXLAVQVzaN6ZmX4A6U4z2nMbOwobxkLoIIfjVMBg7TeguTUXkKeXni795B6y5rnvDw7rxhAq9A=="
+  "resolved" "https://registry.npmjs.org/decompress-tarbz2/-/decompress-tarbz2-4.1.1.tgz"
+  "version" "4.1.1"
+  dependencies:
+    "decompress-tar" "^4.1.0"
+    "file-type" "^6.1.0"
+    "is-stream" "^1.1.0"
+    "seek-bzip" "^1.0.5"
+    "unbzip2-stream" "^1.0.9"
+
+"decompress-targz@^4.0.0":
+  "integrity" "sha512-4z81Znfr6chWnRDNfFNqLwPvm4db3WuZkqV+UgXQzSngG3CEKdBkw5jrv3axjjL96glyiiKjsxJG3X6WBZwX3w=="
+  "resolved" "https://registry.npmjs.org/decompress-targz/-/decompress-targz-4.1.1.tgz"
+  "version" "4.1.1"
+  dependencies:
+    "decompress-tar" "^4.1.1"
+    "file-type" "^5.2.0"
+    "is-stream" "^1.1.0"
+
+"decompress-unzip@^4.0.1":
+  "integrity" "sha1-3qrM39FK6vhVePczroIQ+bSEj2k="
+  "resolved" "https://registry.npmjs.org/decompress-unzip/-/decompress-unzip-4.0.1.tgz"
+  "version" "4.0.1"
+  dependencies:
+    "file-type" "^3.8.0"
+    "get-stream" "^2.2.0"
+    "pify" "^2.3.0"
+    "yauzl" "^2.4.2"
+
+"decompress@^4.2.0":
+  "integrity" "sha512-e48kc2IjU+2Zw8cTb6VZcJQ3lgVbS4uuB1TfCHbiZIP/haNXm+SVyhu+87jts5/3ROpd82GSVCoNs/z8l4ZOaQ=="
+  "resolved" "https://registry.npmjs.org/decompress/-/decompress-4.2.1.tgz"
+  "version" "4.2.1"
+  dependencies:
+    "decompress-tar" "^4.0.0"
+    "decompress-tarbz2" "^4.0.0"
+    "decompress-targz" "^4.0.0"
+    "decompress-unzip" "^4.0.1"
+    "graceful-fs" "^4.1.10"
+    "make-dir" "^1.0.0"
+    "pify" "^2.3.0"
+    "strip-dirs" "^2.0.0"
+
+"defaults@^1.0.3":
+  "integrity" "sha1-xlYFHpgX2f8I7YgUd/P+QBnz730="
+  "resolved" "http://registry.npm.souche-inc.com/defaults/download/defaults-1.0.3.tgz"
+  "version" "1.0.3"
+  dependencies:
+    "clone" "^1.0.2"
+
+"delegates@^1.0.0":
+  "integrity" "sha1-hMbhWbgZBP3KWaDvRM2HDTElD5o="
+  "resolved" "http://registry.npm.souche-inc.com/delegates/download/delegates-1.0.0.tgz"
+  "version" "1.0.0"
+
+"download-git-repo@^3.0.2":
+  "integrity" "sha512-N8hWXD4hXqmEcNoR8TBYFntaOcYvEQ7Bz90mgm3bZRTuteGQqwT32VDMnTyD0KTEvb8BWrMc1tVmzuV9u/WrAg=="
+  "resolved" "https://registry.npmjs.org/download-git-repo/-/download-git-repo-3.0.2.tgz"
+  "version" "3.0.2"
+  dependencies:
+    "download" "^7.1.0"
+    "git-clone" "^0.1.0"
+    "rimraf" "^3.0.0"
+
+"download@^7.1.0":
+  "integrity" "sha512-xqnBTVd/E+GxJVrX5/eUJiLYjCGPwMpdL+jGhGU57BvtcA7wwhtHVbXBeUk51kOpW3S7Jn3BQbN9Q1R1Km2qDQ=="
+  "resolved" "https://registry.npmjs.org/download/-/download-7.1.0.tgz"
+  "version" "7.1.0"
+  dependencies:
+    "archive-type" "^4.0.0"
+    "caw" "^2.0.1"
+    "content-disposition" "^0.5.2"
+    "decompress" "^4.2.0"
+    "ext-name" "^5.0.0"
+    "file-type" "^8.1.0"
+    "filenamify" "^2.0.0"
+    "get-stream" "^3.0.0"
+    "got" "^8.3.1"
+    "make-dir" "^1.2.0"
+    "p-event" "^2.1.0"
+    "pify" "^3.0.0"
+
+"duplexer3@^0.1.4":
+  "integrity" "sha1-7gHdHKwO08vH/b6jfcCo8c4ALOI="
+  "resolved" "https://registry.npmjs.org/duplexer3/-/duplexer3-0.1.4.tgz"
+  "version" "0.1.4"
+
+"emoji-regex@^8.0.0":
+  "integrity" "sha1-6Bj9ac5cz8tARZT4QpY79TFkzDc="
+  "resolved" "http://registry.npm.souche-inc.com/emoji-regex/download/emoji-regex-8.0.0.tgz"
+  "version" "8.0.0"
+
+"end-of-stream@^1.0.0":
+  "integrity" "sha512-+uw1inIHVPQoaVuHzRyXd21icM+cnt4CzD5rW+NC1wjOUSTOs+Te7FOv7AhN7vS9x/oIyhLP5PR1H+phQAHu5Q=="
+  "resolved" "https://registry.npmjs.org/end-of-stream/-/end-of-stream-1.4.4.tgz"
+  "version" "1.4.4"
+  dependencies:
+    "once" "^1.4.0"
+
+"escape-string-regexp@^1.0.2", "escape-string-regexp@^1.0.5":
+  "integrity" "sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ="
+  "resolved" "http://registry.npm.souche-inc.com/escape-string-regexp/download/escape-string-regexp-1.0.5.tgz"
+  "version" "1.0.5"
+
+"ext-list@^2.0.0":
+  "integrity" "sha512-u+SQgsubraE6zItfVA0tBuCBhfU9ogSRnsvygI7wht9TS510oLkBRXBsqopeUG/GBOIQyKZO9wjTqIu/sf5zFA=="
+  "resolved" "https://registry.npmjs.org/ext-list/-/ext-list-2.2.2.tgz"
+  "version" "2.2.2"
+  dependencies:
+    "mime-db" "^1.28.0"
+
+"ext-name@^5.0.0":
+  "integrity" "sha512-yblEwXAbGv1VQDmow7s38W77hzAgJAO50ztBLMcUyUBfxv1HC+LGwtiEN+Co6LtlqT/5uwVOxsD4TNIilWhwdQ=="
+  "resolved" "https://registry.npmjs.org/ext-name/-/ext-name-5.0.0.tgz"
+  "version" "5.0.0"
+  dependencies:
+    "ext-list" "^2.0.0"
+    "sort-keys-length" "^1.0.0"
+
+"external-editor@^3.0.3":
+  "integrity" "sha1-ywP3QL764D6k0oPK7SdBqD8zVJU="
+  "resolved" "http://registry.npm.souche-inc.com/external-editor/download/external-editor-3.1.0.tgz"
+  "version" "3.1.0"
+  dependencies:
+    "chardet" "^0.7.0"
+    "iconv-lite" "^0.4.24"
+    "tmp" "^0.0.33"
+
+"fd-slicer@~1.1.0":
+  "integrity" "sha1-JcfInLH5B3+IkbvmHY85Dq4lbx4="
+  "resolved" "https://registry.npmjs.org/fd-slicer/-/fd-slicer-1.1.0.tgz"
+  "version" "1.1.0"
+  dependencies:
+    "pend" "~1.2.0"
+
+"figures@^3.0.0":
+  "integrity" "sha1-YlwYvSk8YE3EqN2y/r8MiDQXRq8="
+  "resolved" "http://registry.npm.souche-inc.com/figures/download/figures-3.2.0.tgz"
+  "version" "3.2.0"
+  dependencies:
+    "escape-string-regexp" "^1.0.5"
+
+"file-type@^3.8.0":
+  "integrity" "sha1-JXoHg4TR24CHvESdEH1SpSZyuek="
+  "resolved" "https://registry.npmjs.org/file-type/-/file-type-3.9.0.tgz"
+  "version" "3.9.0"
+
+"file-type@^4.2.0":
+  "integrity" "sha1-G2AOX8ofvcboDApwxxyNul95BsU="
+  "resolved" "https://registry.npmjs.org/file-type/-/file-type-4.4.0.tgz"
+  "version" "4.4.0"
+
+"file-type@^5.2.0":
+  "integrity" "sha1-LdvqfHP/42No365J3DOMBYwritY="
+  "resolved" "https://registry.npmjs.org/file-type/-/file-type-5.2.0.tgz"
+  "version" "5.2.0"
+
+"file-type@^6.1.0":
+  "integrity" "sha512-YPcTBDV+2Tm0VqjybVd32MHdlEGAtuxS3VAYsumFokDSMG+ROT5wawGlnHDoz7bfMcMDt9hxuXvXwoKUx2fkOg=="
+  "resolved" "https://registry.npmjs.org/file-type/-/file-type-6.2.0.tgz"
+  "version" "6.2.0"
+
+"file-type@^8.1.0":
+  "integrity" "sha512-qyQ0pzAy78gVoJsmYeNgl8uH8yKhr1lVhW7JbzJmnlRi0I4R2eEDEJZVKG8agpDnLpacwNbDhLNG/LMdxHD2YQ=="
+  "resolved" "https://registry.npmjs.org/file-type/-/file-type-8.1.0.tgz"
+  "version" "8.1.0"
+
+"filename-reserved-regex@^2.0.0":
+  "integrity" "sha1-q/c9+rc10EVECr/qLZHzieu/oik="
+  "resolved" "https://registry.npmjs.org/filename-reserved-regex/-/filename-reserved-regex-2.0.0.tgz"
+  "version" "2.0.0"
+
+"filenamify@^2.0.0":
+  "integrity" "sha512-ICw7NTT6RsDp2rnYKVd8Fu4cr6ITzGy3+u4vUujPkabyaz+03F24NWEX7fs5fp+kBonlaqPH8fAO2NM+SXt/JA=="
+  "resolved" "https://registry.npmjs.org/filenamify/-/filenamify-2.1.0.tgz"
+  "version" "2.1.0"
+  dependencies:
+    "filename-reserved-regex" "^2.0.0"
+    "strip-outer" "^1.0.0"
+    "trim-repeated" "^1.0.0"
+
+"find-up@^4.0.0":
+  "integrity" "sha1-l6/n1s3AvFkoWEt8jXsW6KmqXRk="
+  "resolved" "http://registry.npm.souche-inc.com/find-up/download/find-up-4.1.0.tgz"
+  "version" "4.1.0"
+  dependencies:
+    "locate-path" "^5.0.0"
+    "path-exists" "^4.0.0"
+
+"follow-redirects@^1.14.4":
+  "integrity" "sha512-fhUl5EwSJbbl8AR+uYL2KQDxLkdSjZGR36xy46AO7cOMTrCMON6Sa28FmAnC2tRTDbd/Uuzz3aJBv7EBN7JH8A=="
+  "resolved" "https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.14.6.tgz"
+  "version" "1.14.6"
+
+"from2@^2.1.1":
+  "integrity" "sha1-i/tVAr3kpNNs/e6gB/zKIdfjgq8="
+  "resolved" "https://registry.npmjs.org/from2/-/from2-2.3.0.tgz"
+  "version" "2.3.0"
+  dependencies:
+    "inherits" "^2.0.1"
+    "readable-stream" "^2.0.0"
+
+"fs-constants@^1.0.0":
+  "integrity" "sha512-y6OAwoSIf7FyjMIv94u+b5rdheZEjzR63GTyZJm5qh4Bi+2YgwLCcI/fPFZkL5PSixOt6ZNKm+w+Hfp/Bciwow=="
+  "resolved" "https://registry.npmjs.org/fs-constants/-/fs-constants-1.0.0.tgz"
+  "version" "1.0.0"
+
+"fs-extra@^10.0.0":
+  "integrity" "sha1-n/YbZV3eU/s0qC34S7IUzoAuF8E="
+  "resolved" "http://registry.npm.souche-inc.com/fs-extra/download/fs-extra-10.0.0.tgz"
+  "version" "10.0.0"
+  dependencies:
+    "graceful-fs" "^4.2.0"
+    "jsonfile" "^6.0.1"
+    "universalify" "^2.0.0"
+
+"fs.realpath@^1.0.0":
+  "integrity" "sha1-FQStJSMVjKpA20onh8sBQRmU6k8="
+  "resolved" "https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz"
+  "version" "1.0.0"
+
+"gauge@^4.0.0":
+  "integrity" "sha1-r7oHqgN0qTxiGWA7H7g+qiJk2Pg="
+  "resolved" "http://registry.npm.souche-inc.com/gauge/download/gauge-4.0.0.tgz"
+  "version" "4.0.0"
+  dependencies:
+    "ansi-regex" "^5.0.1"
+    "aproba" "^1.0.3 || ^2.0.0"
+    "color-support" "^1.1.2"
+    "console-control-strings" "^1.0.0"
+    "has-unicode" "^2.0.1"
+    "signal-exit" "^3.0.0"
+    "string-width" "^4.2.3"
+    "strip-ansi" "^6.0.1"
+    "wide-align" "^1.1.2"
+
+"get-proxy@^2.0.0":
+  "integrity" "sha512-zmZIaQTWnNQb4R4fJUEp/FC51eZsc6EkErspy3xtIYStaq8EB/hDIWipxsal+E8rz0qD7f2sL/NA9Xee4RInJw=="
+  "resolved" "https://registry.npmjs.org/get-proxy/-/get-proxy-2.1.0.tgz"
+  "version" "2.1.0"
+  dependencies:
+    "npm-conf" "^1.1.0"
+
+"get-stream@^2.2.0":
+  "integrity" "sha1-Xzj5PzRgCWZu4BUKBUFn+Rvdld4="
+  "resolved" "https://registry.npmjs.org/get-stream/-/get-stream-2.3.1.tgz"
+  "version" "2.3.1"
+  dependencies:
+    "object-assign" "^4.0.1"
+    "pinkie-promise" "^2.0.0"
+
+"get-stream@^3.0.0", "get-stream@3.0.0":
+  "integrity" "sha1-jpQ9E1jcN1VQVOy+LtsFqhdO3hQ="
+  "resolved" "https://registry.npmjs.org/get-stream/-/get-stream-3.0.0.tgz"
+  "version" "3.0.0"
+
+"git-clone@^0.1.0":
+  "integrity" "sha1-DXYWN3gJOu9/HDAjjyqe8/B6Lrk="
+  "resolved" "https://registry.npmjs.org/git-clone/-/git-clone-0.1.0.tgz"
+  "version" "0.1.0"
+
+"glob@^7.1.3":
+  "integrity" "sha512-lmLf6gtyrPq8tTjSmrO94wBeQbFR3HbLHbuyD69wuyQkImp2hWqMGB47OX65FBkPffO641IP9jWa1z4ivqG26Q=="
+  "resolved" "https://registry.npmjs.org/glob/-/glob-7.2.0.tgz"
+  "version" "7.2.0"
+  dependencies:
+    "fs.realpath" "^1.0.0"
+    "inflight" "^1.0.4"
+    "inherits" "2"
+    "minimatch" "^3.0.4"
+    "once" "^1.3.0"
+    "path-is-absolute" "^1.0.0"
+
+"got@^8.3.1":
+  "integrity" "sha512-qjUJ5U/hawxosMryILofZCkm3C84PLJS/0grRIpjAwu+Lkxxj5cxeCU25BG0/3mDSpXKTyZr8oh8wIgLaH0QCw=="
+  "resolved" "https://registry.npmjs.org/got/-/got-8.3.2.tgz"
+  "version" "8.3.2"
+  dependencies:
+    "@sindresorhus/is" "^0.7.0"
+    "cacheable-request" "^2.1.1"
+    "decompress-response" "^3.3.0"
+    "duplexer3" "^0.1.4"
+    "get-stream" "^3.0.0"
+    "into-stream" "^3.1.0"
+    "is-retry-allowed" "^1.1.0"
+    "isurl" "^1.0.0-alpha5"
+    "lowercase-keys" "^1.0.0"
+    "mimic-response" "^1.0.0"
+    "p-cancelable" "^0.4.0"
+    "p-timeout" "^2.0.1"
+    "pify" "^3.0.0"
+    "safe-buffer" "^5.1.1"
+    "timed-out" "^4.0.1"
+    "url-parse-lax" "^3.0.0"
+    "url-to-options" "^1.0.1"
+
+"graceful-fs@^4.1.10", "graceful-fs@^4.1.6", "graceful-fs@^4.2.0":
+  "integrity" "sha1-5BK40z9eAGWTy9PO5t+fLOu+gCo="
+  "resolved" "http://registry.npm.souche-inc.com/graceful-fs/download/graceful-fs-4.2.8.tgz"
+  "version" "4.2.8"
+
+"has-flag@^4.0.0":
+  "integrity" "sha1-lEdx/ZyByBJlxNaUGGDaBrtZR5s="
+  "resolved" "http://registry.npm.souche-inc.com/has-flag/download/has-flag-4.0.0.tgz"
+  "version" "4.0.0"
+
+"has-symbol-support-x@^1.4.1":
+  "integrity" "sha512-3ToOva++HaW+eCpgqZrCfN51IPB+7bJNVT6CUATzueB5Heb8o6Nam0V3HG5dlDvZU1Gn5QLcbahiKw/XVk5JJw=="
+  "resolved" "https://registry.npmjs.org/has-symbol-support-x/-/has-symbol-support-x-1.4.2.tgz"
+  "version" "1.4.2"
+
+"has-to-string-tag-x@^1.2.0":
+  "integrity" "sha512-vdbKfmw+3LoOYVr+mtxHaX5a96+0f3DljYd8JOqvOLsf5mw2Otda2qCDT9qRqLAhrjyQ0h7ual5nOiASpsGNFw=="
+  "resolved" "https://registry.npmjs.org/has-to-string-tag-x/-/has-to-string-tag-x-1.4.1.tgz"
+  "version" "1.4.1"
+  dependencies:
+    "has-symbol-support-x" "^1.4.1"
+
+"has-unicode@^2.0.1":
+  "integrity" "sha1-4Ob+aijPUROIVeCG0Wkedx3iqLk="
+  "resolved" "http://registry.npm.souche-inc.com/has-unicode/download/has-unicode-2.0.1.tgz"
+  "version" "2.0.1"
+
+"http-cache-semantics@3.8.1":
+  "integrity" "sha512-5ai2iksyV8ZXmnZhHH4rWPoxxistEexSi5936zIQ1bnNTW5VnA85B6P/VpXiRM017IgRvb2kKo1a//y+0wSp3w=="
+  "resolved" "https://registry.npmjs.org/http-cache-semantics/-/http-cache-semantics-3.8.1.tgz"
+  "version" "3.8.1"
+
+"iconv-lite@^0.4.24":
+  "integrity" "sha1-ICK0sl+93CHS9SSXSkdKr+czkIs="
+  "resolved" "http://registry.npm.souche-inc.com/iconv-lite/download/iconv-lite-0.4.24.tgz"
+  "version" "0.4.24"
+  dependencies:
+    "safer-buffer" ">= 2.1.2 < 3"
+
+"ieee754@^1.1.13":
+  "integrity" "sha1-jrehCmP/8l0VpXsAFYbRd9Gw01I="
+  "resolved" "http://registry.npm.souche-inc.com/ieee754/download/ieee754-1.2.1.tgz"
+  "version" "1.2.1"
+
+"import-local@^3.0.3":
+  "integrity" "sha1-TVHCxJXKk5PaJZ7Ga2LgIpICEeA="
+  "resolved" "http://registry.npm.souche-inc.com/import-local/download/import-local-3.0.3.tgz"
+  "version" "3.0.3"
+  dependencies:
+    "pkg-dir" "^4.2.0"
+    "resolve-cwd" "^3.0.0"
+
+"inflight@^1.0.4":
+  "integrity" "sha1-Sb1jMdfQLQwJvJEKEHW6gWW1bfk="
+  "resolved" "https://registry.npmjs.org/inflight/-/inflight-1.0.6.tgz"
+  "version" "1.0.6"
+  dependencies:
+    "once" "^1.3.0"
+    "wrappy" "1"
+
+"inherits@^2.0.1", "inherits@^2.0.3", "inherits@^2.0.4", "inherits@~2.0.3", "inherits@2":
+  "integrity" "sha1-D6LGT5MpF8NDOg3tVTY6rjdBa3w="
+  "resolved" "http://registry.npm.souche-inc.com/inherits/download/inherits-2.0.4.tgz"
+  "version" "2.0.4"
+
+"ini@^1.3.4":
+  "integrity" "sha512-JV/yugV2uzW5iMRSiZAyDtQd+nxtUnjeLt0acNdw98kKLrvuRVyB80tsREOE7yvGVgalhZ6RNXCmEHkUKBKxew=="
+  "resolved" "https://registry.npmjs.org/ini/-/ini-1.3.8.tgz"
+  "version" "1.3.8"
+
+"inquirer@^8.2.0":
+  "integrity" "sha1-9E8AjdNEu/xLMAMfRdmE4DSjrDo="
+  "resolved" "http://registry.npm.souche-inc.com/inquirer/download/inquirer-8.2.0.tgz"
+  "version" "8.2.0"
+  dependencies:
+    "ansi-escapes" "^4.2.1"
+    "chalk" "^4.1.1"
+    "cli-cursor" "^3.1.0"
+    "cli-width" "^3.0.0"
+    "external-editor" "^3.0.3"
+    "figures" "^3.0.0"
+    "lodash" "^4.17.21"
+    "mute-stream" "0.0.8"
+    "ora" "^5.4.1"
+    "run-async" "^2.4.0"
+    "rxjs" "^7.2.0"
+    "string-width" "^4.1.0"
+    "strip-ansi" "^6.0.0"
+    "through" "^2.3.6"
+
+"into-stream@^3.1.0":
+  "integrity" "sha1-lvsKk2wSur1v8XUqF9BWFqvQlMY="
+  "resolved" "https://registry.npmjs.org/into-stream/-/into-stream-3.1.0.tgz"
+  "version" "3.1.0"
+  dependencies:
+    "from2" "^2.1.1"
+    "p-is-promise" "^1.1.0"
+
+"is-fullwidth-code-point@^3.0.0":
+  "integrity" "sha1-8Rb4Bk/pCz94RKOJl8C3UFEmnx0="
+  "resolved" "http://registry.npm.souche-inc.com/is-fullwidth-code-point/download/is-fullwidth-code-point-3.0.0.tgz"
+  "version" "3.0.0"
+
+"is-interactive@^1.0.0":
+  "integrity" "sha1-zqbmrlyHCnsKAAQHC3tYfgJSkS4="
+  "resolved" "http://registry.npm.souche-inc.com/is-interactive/download/is-interactive-1.0.0.tgz"
+  "version" "1.0.0"
+
+"is-natural-number@^4.0.1":
+  "integrity" "sha1-q5124dtM7VHjXeDHLr7PCfc0zeg="
+  "resolved" "https://registry.npmjs.org/is-natural-number/-/is-natural-number-4.0.1.tgz"
+  "version" "4.0.1"
+
+"is-object@^1.0.1":
+  "integrity" "sha512-2rRIahhZr2UWb45fIOuvZGpFtz0TyOZLf32KxBbSoUCeZR495zCKlWUKKUByk3geS2eAs7ZAABt0Y/Rx0GiQGA=="
+  "resolved" "https://registry.npmjs.org/is-object/-/is-object-1.0.2.tgz"
+  "version" "1.0.2"
+
+"is-plain-obj@^1.0.0":
+  "integrity" "sha1-caUMhCnfync8kqOQpKA7OfzVHT4="
+  "resolved" "https://registry.npmjs.org/is-plain-obj/-/is-plain-obj-1.1.0.tgz"
+  "version" "1.1.0"
+
+"is-retry-allowed@^1.1.0":
+  "integrity" "sha512-RUbUeKwvm3XG2VYamhJL1xFktgjvPzL0Hq8C+6yrWIswDy3BIXGqCxhxkc30N9jqK311gVU137K8Ei55/zVJRg=="
+  "resolved" "https://registry.npmjs.org/is-retry-allowed/-/is-retry-allowed-1.2.0.tgz"
+  "version" "1.2.0"
+
+"is-stream@^1.1.0":
+  "integrity" "sha1-EtSj3U5o4Lec6428hBc66A2RykQ="
+  "resolved" "https://registry.npmjs.org/is-stream/-/is-stream-1.1.0.tgz"
+  "version" "1.1.0"
+
+"is-unicode-supported@^0.1.0":
+  "integrity" "sha1-PybHaoCVk7Ur+i7LVxDtJ3m1Iqc="
+  "resolved" "http://registry.npm.souche-inc.com/is-unicode-supported/download/is-unicode-supported-0.1.0.tgz"
+  "version" "0.1.0"
+
+"isarray@~1.0.0":
+  "integrity" "sha1-u5NdSFgsuhaMBoNJV6VKPgcSTxE="
+  "resolved" "https://registry.npmjs.org/isarray/-/isarray-1.0.0.tgz"
+  "version" "1.0.0"
+
+"isurl@^1.0.0-alpha5":
+  "integrity" "sha512-1P/yWsxPlDtn7QeRD+ULKQPaIaN6yF368GZ2vDfv0AL0NwpStafjWCDDdn0k8wgFMWpVAqG7oJhxHnlud42i9w=="
+  "resolved" "https://registry.npmjs.org/isurl/-/isurl-1.0.0.tgz"
+  "version" "1.0.0"
+  dependencies:
+    "has-to-string-tag-x" "^1.2.0"
+    "is-object" "^1.0.1"
+
+"json-buffer@3.0.0":
+  "integrity" "sha1-Wx85evx11ne96Lz8Dkfh+aPZqJg="
+  "resolved" "https://registry.npmjs.org/json-buffer/-/json-buffer-3.0.0.tgz"
+  "version" "3.0.0"
+
+"jsonfile@^6.0.1":
+  "integrity" "sha1-vFWyY0eTxnnsZAMJTrE2mKbsCq4="
+  "resolved" "http://registry.npm.souche-inc.com/jsonfile/download/jsonfile-6.1.0.tgz"
+  "version" "6.1.0"
+  dependencies:
+    "universalify" "^2.0.0"
   optionalDependencies:
-    graceful-fs "^4.1.6"
+    "graceful-fs" "^4.1.6"
 
-leven@^4.0.0:
-  version "4.0.0"
-  resolved "http://registry.npm.souche-inc.com/leven/download/leven-4.0.0.tgz#b9c39c803f835950fabef9e122a9b47b95708710"
-  integrity sha1-ucOcgD+DWVD6vvnhIqm0e5VwhxA=
-
-locate-path@^5.0.0:
-  version "5.0.0"
-  resolved "http://registry.npm.souche-inc.com/locate-path/download/locate-path-5.0.0.tgz"
-  integrity sha1-Gvujlq/WdqbUJQTQpno6frn2KqA=
+"keyv@3.0.0":
+  "integrity" "sha512-eguHnq22OE3uVoSYG0LVWNP+4ppamWr9+zWBe1bsNcovIMy6huUJFPgy4mGwCd/rnl3vOLGW1MTlu4c57CT1xA=="
+  "resolved" "https://registry.npmjs.org/keyv/-/keyv-3.0.0.tgz"
+  "version" "3.0.0"
   dependencies:
-    p-locate "^4.1.0"
+    "json-buffer" "3.0.0"
 
-lodash@^4.17.21:
-  version "4.17.21"
-  resolved "http://registry.npm.souche-inc.com/lodash/download/lodash-4.17.21.tgz"
-  integrity sha1-Z5WRxWTDv/quhFTPCz3zcMPWkRw=
+"leven@^4.0.0":
+  "integrity" "sha512-puehA3YKku3osqPlNuzGDUHq8WpwXupUg1V6NXdV38G+gr+gkBwFC8g1b/+YcIvp8gnqVIus+eJCH/eGsRmJNw=="
+  "resolved" "https://registry.npmjs.org/leven/-/leven-4.0.0.tgz"
+  "version" "4.0.0"
 
-log-symbols@^4.1.0:
-  version "4.1.0"
-  resolved "http://registry.npm.souche-inc.com/log-symbols/download/log-symbols-4.1.0.tgz"
-  integrity sha1-P727lbRoOsn8eFER55LlWNSr1QM=
+"locate-path@^5.0.0":
+  "integrity" "sha1-Gvujlq/WdqbUJQTQpno6frn2KqA="
+  "resolved" "http://registry.npm.souche-inc.com/locate-path/download/locate-path-5.0.0.tgz"
+  "version" "5.0.0"
   dependencies:
-    chalk "^4.1.0"
-    is-unicode-supported "^0.1.0"
+    "p-locate" "^4.1.0"
 
-lru-cache@^6.0.0:
-  version "6.0.0"
-  resolved "http://registry.npm.souche-inc.com/lru-cache/download/lru-cache-6.0.0.tgz"
-  integrity sha1-bW/mVw69lqr5D8rR2vo7JWbbOpQ=
+"lodash@^4.17.21":
+  "integrity" "sha1-Z5WRxWTDv/quhFTPCz3zcMPWkRw="
+  "resolved" "http://registry.npm.souche-inc.com/lodash/download/lodash-4.17.21.tgz"
+  "version" "4.17.21"
+
+"log-symbols@^4.1.0":
+  "integrity" "sha1-P727lbRoOsn8eFER55LlWNSr1QM="
+  "resolved" "http://registry.npm.souche-inc.com/log-symbols/download/log-symbols-4.1.0.tgz"
+  "version" "4.1.0"
   dependencies:
-    yallist "^4.0.0"
+    "chalk" "^4.1.0"
+    "is-unicode-supported" "^0.1.0"
 
-mimic-fn@^2.1.0:
-  version "2.1.0"
-  resolved "http://registry.npm.souche-inc.com/mimic-fn/download/mimic-fn-2.1.0.tgz"
-  integrity sha1-ftLCzMyvhNP/y3pptXcR/CCDQBs=
+"lowercase-keys@^1.0.0":
+  "integrity" "sha512-G2Lj61tXDnVFFOi8VZds+SoQjtQC3dgokKdDG2mTm1tx4m50NUHBOZSBwQQHyy0V12A0JTG4icfZQH+xPyh8VA=="
+  "resolved" "https://registry.npmjs.org/lowercase-keys/-/lowercase-keys-1.0.1.tgz"
+  "version" "1.0.1"
 
-mute-stream@0.0.8:
-  version "0.0.8"
-  resolved "http://registry.npm.souche-inc.com/mute-stream/download/mute-stream-0.0.8.tgz"
-  integrity sha1-FjDEKyJR/4HiooPelqVJfqkuXg0=
+"lowercase-keys@1.0.0":
+  "integrity" "sha1-TjNms55/VFfjXxMkvfb4jQv8cwY="
+  "resolved" "https://registry.npmjs.org/lowercase-keys/-/lowercase-keys-1.0.0.tgz"
+  "version" "1.0.0"
 
-npmlog@^6.0.0:
-  version "6.0.0"
-  resolved "http://registry.npm.souche-inc.com/npmlog/download/npmlog-6.0.0.tgz"
-  integrity sha1-up7zlBPD2TbqkVU9t75Jw0rQUgw=
+"lru-cache@^6.0.0":
+  "integrity" "sha1-bW/mVw69lqr5D8rR2vo7JWbbOpQ="
+  "resolved" "http://registry.npm.souche-inc.com/lru-cache/download/lru-cache-6.0.0.tgz"
+  "version" "6.0.0"
   dependencies:
-    are-we-there-yet "^2.0.0"
-    console-control-strings "^1.1.0"
-    gauge "^4.0.0"
-    set-blocking "^2.0.0"
+    "yallist" "^4.0.0"
 
-onetime@^5.1.0:
-  version "5.1.2"
-  resolved "http://registry.npm.souche-inc.com/onetime/download/onetime-5.1.2.tgz"
-  integrity sha1-0Oluu1awdHbfHdnEgG5SN5hcpF4=
+"make-dir@^1.0.0", "make-dir@^1.2.0":
+  "integrity" "sha512-2w31R7SJtieJJnQtGc7RVL2StM2vGYVfqUOvUDxH6bC6aJTxPxTF0GnIgCyu7tjockiUWAYQRbxa7vKn34s5sQ=="
+  "resolved" "https://registry.npmjs.org/make-dir/-/make-dir-1.3.0.tgz"
+  "version" "1.3.0"
   dependencies:
-    mimic-fn "^2.1.0"
+    "pify" "^3.0.0"
 
-ora@5.4.1, ora@^5.4.1:
-  version "5.4.1"
-  resolved "http://registry.npm.souche-inc.com/ora/download/ora-5.4.1.tgz"
-  integrity sha1-GyZ4Qmr0rEpQkAjl5KyemVnbnhg=
+"mime-db@^1.28.0":
+  "integrity" "sha512-5y8A56jg7XVQx2mbv1lu49NR4dokRnhZYTtL+KGfaa27uq4pSTXkwQkFJl4pkRMyNFz/EtYDSkiiEHx3F7UN6g=="
+  "resolved" "https://registry.npmjs.org/mime-db/-/mime-db-1.51.0.tgz"
+  "version" "1.51.0"
+
+"mimic-fn@^2.1.0":
+  "integrity" "sha1-ftLCzMyvhNP/y3pptXcR/CCDQBs="
+  "resolved" "http://registry.npm.souche-inc.com/mimic-fn/download/mimic-fn-2.1.0.tgz"
+  "version" "2.1.0"
+
+"mimic-response@^1.0.0":
+  "integrity" "sha512-j5EctnkH7amfV/q5Hgmoal1g2QHFJRraOtmx0JpIqkxhBhI/lJSl1nMpQ45hVarwNETOoWEimndZ4QK0RHxuxQ=="
+  "resolved" "https://registry.npmjs.org/mimic-response/-/mimic-response-1.0.1.tgz"
+  "version" "1.0.1"
+
+"minimatch@^3.0.4":
+  "integrity" "sha512-yJHVQEhyqPLUTgt9B83PXu6W3rx4MvvHvSUvToogpwoGDOUQ+yDrR0HRot+yOCdCO7u4hX3pWft6kWBBcqh0UA=="
+  "resolved" "https://registry.npmjs.org/minimatch/-/minimatch-3.0.4.tgz"
+  "version" "3.0.4"
   dependencies:
-    bl "^4.1.0"
-    chalk "^4.1.0"
-    cli-cursor "^3.1.0"
-    cli-spinners "^2.5.0"
-    is-interactive "^1.0.0"
-    is-unicode-supported "^0.1.0"
-    log-symbols "^4.1.0"
-    strip-ansi "^6.0.0"
-    wcwidth "^1.0.1"
+    "brace-expansion" "^1.1.7"
 
-os-tmpdir@~1.0.2:
-  version "1.0.2"
-  resolved "http://registry.npm.souche-inc.com/os-tmpdir/download/os-tmpdir-1.0.2.tgz"
-  integrity sha1-u+Z0BseaqFxc/sdm/lc0VV36EnQ=
+"mute-stream@0.0.8":
+  "integrity" "sha1-FjDEKyJR/4HiooPelqVJfqkuXg0="
+  "resolved" "http://registry.npm.souche-inc.com/mute-stream/download/mute-stream-0.0.8.tgz"
+  "version" "0.0.8"
 
-p-limit@^2.2.0:
-  version "2.3.0"
-  resolved "http://registry.npm.souche-inc.com/p-limit/download/p-limit-2.3.0.tgz"
-  integrity sha1-PdM8ZHohT9//2DWTPrCG2g3CHbE=
+"normalize-url@2.0.1":
+  "integrity" "sha512-D6MUW4K/VzoJ4rJ01JFKxDrtY1v9wrgzCX5f2qj/lzH1m/lW6MhUZFKerVsnyjOhOsYzI9Kqqak+10l4LvLpMw=="
+  "resolved" "https://registry.npmjs.org/normalize-url/-/normalize-url-2.0.1.tgz"
+  "version" "2.0.1"
   dependencies:
-    p-try "^2.0.0"
+    "prepend-http" "^2.0.0"
+    "query-string" "^5.0.1"
+    "sort-keys" "^2.0.0"
 
-p-locate@^4.1.0:
-  version "4.1.0"
-  resolved "http://registry.npm.souche-inc.com/p-locate/download/p-locate-4.1.0.tgz"
-  integrity sha1-o0KLtwiLOmApL2aRkni3wpetTwc=
+"npm-conf@^1.1.0":
+  "integrity" "sha512-Yic4bZHJOt9RCFbRP3GgpqhScOY4HH3V2P8yBj6CeYq118Qr+BLXqT2JvpJ00mryLESpgOxf5XlFv4ZjXxLScw=="
+  "resolved" "https://registry.npmjs.org/npm-conf/-/npm-conf-1.1.3.tgz"
+  "version" "1.1.3"
   dependencies:
-    p-limit "^2.2.0"
+    "config-chain" "^1.1.11"
+    "pify" "^3.0.0"
 
-p-try@^2.0.0:
-  version "2.2.0"
-  resolved "http://registry.npm.souche-inc.com/p-try/download/p-try-2.2.0.tgz"
-  integrity sha1-yyhoVA4xPWHeWPr741zpAE1VQOY=
-
-path-exists@^4.0.0:
-  version "4.0.0"
-  resolved "http://registry.npm.souche-inc.com/path-exists/download/path-exists-4.0.0.tgz"
-  integrity sha1-UTvb4tO5XXdi6METfvoZXGxhtbM=
-
-pkg-dir@^4.2.0:
-  version "4.2.0"
-  resolved "http://registry.npm.souche-inc.com/pkg-dir/download/pkg-dir-4.2.0.tgz"
-  integrity sha1-8JkTPfft5CLoHR2ESCcO6z5CYfM=
+"npmlog@^6.0.0":
+  "integrity" "sha1-up7zlBPD2TbqkVU9t75Jw0rQUgw="
+  "resolved" "http://registry.npm.souche-inc.com/npmlog/download/npmlog-6.0.0.tgz"
+  "version" "6.0.0"
   dependencies:
-    find-up "^4.0.0"
+    "are-we-there-yet" "^2.0.0"
+    "console-control-strings" "^1.1.0"
+    "gauge" "^4.0.0"
+    "set-blocking" "^2.0.0"
 
-readable-stream@^3.4.0, readable-stream@^3.6.0:
-  version "3.6.0"
-  resolved "http://registry.npm.souche-inc.com/readable-stream/download/readable-stream-3.6.0.tgz"
-  integrity sha1-M3u9o63AcGvT4CRCaihtS0sskZg=
+"object-assign@^4.0.1", "object-assign@^4.1.0":
+  "integrity" "sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM="
+  "resolved" "https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz"
+  "version" "4.1.1"
+
+"once@^1.3.0", "once@^1.4.0":
+  "integrity" "sha1-WDsap3WWHUsROsF9nFC6753Xa9E="
+  "resolved" "https://registry.npmjs.org/once/-/once-1.4.0.tgz"
+  "version" "1.4.0"
   dependencies:
-    inherits "^2.0.3"
-    string_decoder "^1.1.1"
-    util-deprecate "^1.0.1"
+    "wrappy" "1"
 
-resolve-cwd@^3.0.0:
-  version "3.0.0"
-  resolved "http://registry.npm.souche-inc.com/resolve-cwd/download/resolve-cwd-3.0.0.tgz"
-  integrity sha1-DwB18bslRHZs9zumpuKt/ryxPy0=
+"onetime@^5.1.0":
+  "integrity" "sha1-0Oluu1awdHbfHdnEgG5SN5hcpF4="
+  "resolved" "http://registry.npm.souche-inc.com/onetime/download/onetime-5.1.2.tgz"
+  "version" "5.1.2"
   dependencies:
-    resolve-from "^5.0.0"
+    "mimic-fn" "^2.1.0"
 
-resolve-from@^5.0.0:
-  version "5.0.0"
-  resolved "http://registry.npm.souche-inc.com/resolve-from/download/resolve-from-5.0.0.tgz"
-  integrity sha1-w1IlhD3493bfIcV1V7wIfp39/Gk=
-
-restore-cursor@^3.1.0:
-  version "3.1.0"
-  resolved "http://registry.npm.souche-inc.com/restore-cursor/download/restore-cursor-3.1.0.tgz"
-  integrity sha1-OfZ8VLOnpYzqUjbZXPADQjljH34=
+"ora@^5.4.1", "ora@5.4.1":
+  "integrity" "sha1-GyZ4Qmr0rEpQkAjl5KyemVnbnhg="
+  "resolved" "http://registry.npm.souche-inc.com/ora/download/ora-5.4.1.tgz"
+  "version" "5.4.1"
   dependencies:
-    onetime "^5.1.0"
-    signal-exit "^3.0.2"
+    "bl" "^4.1.0"
+    "chalk" "^4.1.0"
+    "cli-cursor" "^3.1.0"
+    "cli-spinners" "^2.5.0"
+    "is-interactive" "^1.0.0"
+    "is-unicode-supported" "^0.1.0"
+    "log-symbols" "^4.1.0"
+    "strip-ansi" "^6.0.0"
+    "wcwidth" "^1.0.1"
 
-run-async@^2.4.0:
-  version "2.4.1"
-  resolved "http://registry.npm.souche-inc.com/run-async/download/run-async-2.4.1.tgz"
-  integrity sha1-hEDsz5nqPnC9QJ1JqriOEMGJpFU=
+"os-tmpdir@~1.0.2":
+  "integrity" "sha1-u+Z0BseaqFxc/sdm/lc0VV36EnQ="
+  "resolved" "http://registry.npm.souche-inc.com/os-tmpdir/download/os-tmpdir-1.0.2.tgz"
+  "version" "1.0.2"
 
-rxjs@^7.2.0:
-  version "7.4.0"
-  resolved "http://registry.npm.souche-inc.com/rxjs/download/rxjs-7.4.0.tgz"
-  integrity sha1-oSpE1+6/AW9f8kQbh/KMmlHOvGg=
+"p-cancelable@^0.4.0":
+  "integrity" "sha512-HNa1A8LvB1kie7cERyy21VNeHb2CWJJYqyyC2o3klWFfMGlFmWv2Z7sFgZH8ZiaYL95ydToKTFVXgMV/Os0bBQ=="
+  "resolved" "https://registry.npmjs.org/p-cancelable/-/p-cancelable-0.4.1.tgz"
+  "version" "0.4.1"
+
+"p-event@^2.1.0":
+  "integrity" "sha512-NQCqOFhbpVTMX4qMe8PF8lbGtzZ+LCiN7pcNrb/413Na7+TRoe1xkKUzuWa/YEJdGQ0FvKtj35EEbDoVPO2kbA=="
+  "resolved" "https://registry.npmjs.org/p-event/-/p-event-2.3.1.tgz"
+  "version" "2.3.1"
   dependencies:
-    tslib "~2.1.0"
+    "p-timeout" "^2.0.1"
 
-safe-buffer@~5.2.0:
-  version "5.2.1"
-  resolved "http://registry.npm.souche-inc.com/safe-buffer/download/safe-buffer-5.2.1.tgz"
-  integrity sha1-Hq+fqb2x/dTsdfWPnNtOa3gn7sY=
+"p-finally@^1.0.0":
+  "integrity" "sha1-P7z7FbiZpEEjs0ttzBi3JDNqLK4="
+  "resolved" "https://registry.npmjs.org/p-finally/-/p-finally-1.0.0.tgz"
+  "version" "1.0.0"
+
+"p-is-promise@^1.1.0":
+  "integrity" "sha1-nJRWmJ6fZYgBewQ01WCXZ1w9oF4="
+  "resolved" "https://registry.npmjs.org/p-is-promise/-/p-is-promise-1.1.0.tgz"
+  "version" "1.1.0"
+
+"p-limit@^2.2.0":
+  "integrity" "sha1-PdM8ZHohT9//2DWTPrCG2g3CHbE="
+  "resolved" "http://registry.npm.souche-inc.com/p-limit/download/p-limit-2.3.0.tgz"
+  "version" "2.3.0"
+  dependencies:
+    "p-try" "^2.0.0"
+
+"p-locate@^4.1.0":
+  "integrity" "sha1-o0KLtwiLOmApL2aRkni3wpetTwc="
+  "resolved" "http://registry.npm.souche-inc.com/p-locate/download/p-locate-4.1.0.tgz"
+  "version" "4.1.0"
+  dependencies:
+    "p-limit" "^2.2.0"
+
+"p-timeout@^2.0.1":
+  "integrity" "sha512-88em58dDVB/KzPEx1X0N3LwFfYZPyDc4B6eF38M1rk9VTZMbxXXgjugz8mmwpS9Ox4BDZ+t6t3QP5+/gazweIA=="
+  "resolved" "https://registry.npmjs.org/p-timeout/-/p-timeout-2.0.1.tgz"
+  "version" "2.0.1"
+  dependencies:
+    "p-finally" "^1.0.0"
+
+"p-try@^2.0.0":
+  "integrity" "sha1-yyhoVA4xPWHeWPr741zpAE1VQOY="
+  "resolved" "http://registry.npm.souche-inc.com/p-try/download/p-try-2.2.0.tgz"
+  "version" "2.2.0"
+
+"path-exists@^4.0.0":
+  "integrity" "sha1-UTvb4tO5XXdi6METfvoZXGxhtbM="
+  "resolved" "http://registry.npm.souche-inc.com/path-exists/download/path-exists-4.0.0.tgz"
+  "version" "4.0.0"
+
+"path-is-absolute@^1.0.0":
+  "integrity" "sha1-F0uSaHNVNP+8es5r9TpanhtcX18="
+  "resolved" "https://registry.npmjs.org/path-is-absolute/-/path-is-absolute-1.0.1.tgz"
+  "version" "1.0.1"
+
+"pend@~1.2.0":
+  "integrity" "sha1-elfrVQpng/kRUzH89GY9XI4AelA="
+  "resolved" "https://registry.npmjs.org/pend/-/pend-1.2.0.tgz"
+  "version" "1.2.0"
+
+"pify@^2.3.0":
+  "integrity" "sha1-7RQaasBDqEnqWISY59yosVMw6Qw="
+  "resolved" "https://registry.npmjs.org/pify/-/pify-2.3.0.tgz"
+  "version" "2.3.0"
+
+"pify@^3.0.0":
+  "integrity" "sha1-5aSs0sEB/fPZpNB/DbxNtJ3SgXY="
+  "resolved" "https://registry.npmjs.org/pify/-/pify-3.0.0.tgz"
+  "version" "3.0.0"
+
+"pinkie-promise@^2.0.0":
+  "integrity" "sha1-ITXW36ejWMBprJsXh3YogihFD/o="
+  "resolved" "https://registry.npmjs.org/pinkie-promise/-/pinkie-promise-2.0.1.tgz"
+  "version" "2.0.1"
+  dependencies:
+    "pinkie" "^2.0.0"
+
+"pinkie@^2.0.0":
+  "integrity" "sha1-clVrgM+g1IqXToDnckjoDtT3+HA="
+  "resolved" "https://registry.npmjs.org/pinkie/-/pinkie-2.0.4.tgz"
+  "version" "2.0.4"
+
+"pkg-dir@^4.2.0":
+  "integrity" "sha1-8JkTPfft5CLoHR2ESCcO6z5CYfM="
+  "resolved" "http://registry.npm.souche-inc.com/pkg-dir/download/pkg-dir-4.2.0.tgz"
+  "version" "4.2.0"
+  dependencies:
+    "find-up" "^4.0.0"
+
+"prepend-http@^2.0.0":
+  "integrity" "sha1-6SQ0v6XqjBn0HN/UAddBo8gZ2Jc="
+  "resolved" "https://registry.npmjs.org/prepend-http/-/prepend-http-2.0.0.tgz"
+  "version" "2.0.0"
+
+"process-nextick-args@~2.0.0":
+  "integrity" "sha512-3ouUOpQhtgrbOa17J7+uxOTpITYWaGP7/AhoR3+A+/1e9skrzelGi/dXzEYyvbxubEF6Wn2ypscTKiKJFFn1ag=="
+  "resolved" "https://registry.npmjs.org/process-nextick-args/-/process-nextick-args-2.0.1.tgz"
+  "version" "2.0.1"
+
+"proto-list@~1.2.1":
+  "integrity" "sha1-IS1b/hMYMGpCD2QCuOJv85ZHqEk="
+  "resolved" "https://registry.npmjs.org/proto-list/-/proto-list-1.2.4.tgz"
+  "version" "1.2.4"
+
+"query-string@^5.0.1":
+  "integrity" "sha512-gjWOsm2SoGlgLEdAGt7a6slVOk9mGiXmPFMqrEhLQ68rhQuBnpfs3+EmlvqKyxnCo9/PPlF+9MtY02S1aFg+Jw=="
+  "resolved" "https://registry.npmjs.org/query-string/-/query-string-5.1.1.tgz"
+  "version" "5.1.1"
+  dependencies:
+    "decode-uri-component" "^0.2.0"
+    "object-assign" "^4.1.0"
+    "strict-uri-encode" "^1.0.0"
+
+"readable-stream@^2.0.0":
+  "integrity" "sha512-Ebho8K4jIbHAxnuxi7o42OrZgF/ZTNcsZj6nRKyUmkhLFq8CHItp/fy6hQZuZmP/n3yZ9VBUbp4zz/mX8hmYPw=="
+  "resolved" "https://registry.npmjs.org/readable-stream/-/readable-stream-2.3.7.tgz"
+  "version" "2.3.7"
+  dependencies:
+    "core-util-is" "~1.0.0"
+    "inherits" "~2.0.3"
+    "isarray" "~1.0.0"
+    "process-nextick-args" "~2.0.0"
+    "safe-buffer" "~5.1.1"
+    "string_decoder" "~1.1.1"
+    "util-deprecate" "~1.0.1"
+
+"readable-stream@^2.3.0", "readable-stream@^2.3.5":
+  "integrity" "sha512-Ebho8K4jIbHAxnuxi7o42OrZgF/ZTNcsZj6nRKyUmkhLFq8CHItp/fy6hQZuZmP/n3yZ9VBUbp4zz/mX8hmYPw=="
+  "resolved" "https://registry.npmjs.org/readable-stream/-/readable-stream-2.3.7.tgz"
+  "version" "2.3.7"
+  dependencies:
+    "core-util-is" "~1.0.0"
+    "inherits" "~2.0.3"
+    "isarray" "~1.0.0"
+    "process-nextick-args" "~2.0.0"
+    "safe-buffer" "~5.1.1"
+    "string_decoder" "~1.1.1"
+    "util-deprecate" "~1.0.1"
+
+"readable-stream@^3.4.0", "readable-stream@^3.6.0":
+  "integrity" "sha1-M3u9o63AcGvT4CRCaihtS0sskZg="
+  "resolved" "http://registry.npm.souche-inc.com/readable-stream/download/readable-stream-3.6.0.tgz"
+  "version" "3.6.0"
+  dependencies:
+    "inherits" "^2.0.3"
+    "string_decoder" "^1.1.1"
+    "util-deprecate" "^1.0.1"
+
+"resolve-cwd@^3.0.0":
+  "integrity" "sha1-DwB18bslRHZs9zumpuKt/ryxPy0="
+  "resolved" "http://registry.npm.souche-inc.com/resolve-cwd/download/resolve-cwd-3.0.0.tgz"
+  "version" "3.0.0"
+  dependencies:
+    "resolve-from" "^5.0.0"
+
+"resolve-from@^5.0.0":
+  "integrity" "sha1-w1IlhD3493bfIcV1V7wIfp39/Gk="
+  "resolved" "http://registry.npm.souche-inc.com/resolve-from/download/resolve-from-5.0.0.tgz"
+  "version" "5.0.0"
+
+"responselike@1.0.2":
+  "integrity" "sha1-kYcg7ztjHFZCvgaPFa3lpG9Loec="
+  "resolved" "https://registry.npmjs.org/responselike/-/responselike-1.0.2.tgz"
+  "version" "1.0.2"
+  dependencies:
+    "lowercase-keys" "^1.0.0"
+
+"restore-cursor@^3.1.0":
+  "integrity" "sha1-OfZ8VLOnpYzqUjbZXPADQjljH34="
+  "resolved" "http://registry.npm.souche-inc.com/restore-cursor/download/restore-cursor-3.1.0.tgz"
+  "version" "3.1.0"
+  dependencies:
+    "onetime" "^5.1.0"
+    "signal-exit" "^3.0.2"
+
+"rimraf@^3.0.0":
+  "integrity" "sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA=="
+  "resolved" "https://registry.npmjs.org/rimraf/-/rimraf-3.0.2.tgz"
+  "version" "3.0.2"
+  dependencies:
+    "glob" "^7.1.3"
+
+"run-async@^2.4.0":
+  "integrity" "sha1-hEDsz5nqPnC9QJ1JqriOEMGJpFU="
+  "resolved" "http://registry.npm.souche-inc.com/run-async/download/run-async-2.4.1.tgz"
+  "version" "2.4.1"
+
+"rxjs@^7.2.0":
+  "integrity" "sha1-oSpE1+6/AW9f8kQbh/KMmlHOvGg="
+  "resolved" "http://registry.npm.souche-inc.com/rxjs/download/rxjs-7.4.0.tgz"
+  "version" "7.4.0"
+  dependencies:
+    "tslib" "~2.1.0"
+
+"safe-buffer@^5.0.1", "safe-buffer@^5.1.1", "safe-buffer@~5.2.0", "safe-buffer@5.2.1":
+  "integrity" "sha1-Hq+fqb2x/dTsdfWPnNtOa3gn7sY="
+  "resolved" "http://registry.npm.souche-inc.com/safe-buffer/download/safe-buffer-5.2.1.tgz"
+  "version" "5.2.1"
+
+"safe-buffer@~5.1.0", "safe-buffer@~5.1.1":
+  "integrity" "sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g=="
+  "resolved" "https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.2.tgz"
+  "version" "5.1.2"
 
 "safer-buffer@>= 2.1.2 < 3":
-  version "2.1.2"
-  resolved "http://registry.npm.souche-inc.com/safer-buffer/download/safer-buffer-2.1.2.tgz"
-  integrity sha1-RPoWGwGHuVSd2Eu5GAL5vYOFzWo=
+  "integrity" "sha1-RPoWGwGHuVSd2Eu5GAL5vYOFzWo="
+  "resolved" "http://registry.npm.souche-inc.com/safer-buffer/download/safer-buffer-2.1.2.tgz"
+  "version" "2.1.2"
 
-semver@^7.3.5:
-  version "7.3.5"
-  resolved "http://registry.npm.souche-inc.com/semver/download/semver-7.3.5.tgz"
-  integrity sha1-C2Ich5NI2JmOSw5L6Us/EuYBjvc=
+"seek-bzip@^1.0.5":
+  "integrity" "sha512-e1QtP3YL5tWww8uKaOCQ18UxIT2laNBXHjV/S2WYCiK4udiv8lkG89KRIoCjUagnAmCBurjF4zEVX2ByBbnCjQ=="
+  "resolved" "https://registry.npmjs.org/seek-bzip/-/seek-bzip-1.0.6.tgz"
+  "version" "1.0.6"
   dependencies:
-    lru-cache "^6.0.0"
+    "commander" "^2.8.1"
 
-set-blocking@^2.0.0:
-  version "2.0.0"
-  resolved "http://registry.npm.souche-inc.com/set-blocking/download/set-blocking-2.0.0.tgz"
-  integrity sha1-BF+XgtARrppoA93TgrJDkrPYkPc=
-
-signal-exit@^3.0.0, signal-exit@^3.0.2:
-  version "3.0.6"
-  resolved "http://registry.npm.souche-inc.com/signal-exit/download/signal-exit-3.0.6.tgz"
-  integrity sha1-JOYwxLDwP+pEaivSmeYrSmyo0K8=
-
-"string-width@^1.0.2 || 2 || 3 || 4", string-width@^4.1.0, string-width@^4.2.3:
-  version "4.2.3"
-  resolved "http://registry.npm.souche-inc.com/string-width/download/string-width-4.2.3.tgz"
-  integrity sha1-JpxxF9J7Ba0uU2gwqOyJXvnG0BA=
+"semver@^7.3.5":
+  "integrity" "sha1-C2Ich5NI2JmOSw5L6Us/EuYBjvc="
+  "resolved" "http://registry.npm.souche-inc.com/semver/download/semver-7.3.5.tgz"
+  "version" "7.3.5"
   dependencies:
-    emoji-regex "^8.0.0"
-    is-fullwidth-code-point "^3.0.0"
-    strip-ansi "^6.0.1"
+    "lru-cache" "^6.0.0"
 
-string_decoder@^1.1.1:
-  version "1.3.0"
-  resolved "http://registry.npm.souche-inc.com/string_decoder/download/string_decoder-1.3.0.tgz"
-  integrity sha1-QvEUWUpGzxqOMLCoT1bHjD7awh4=
+"set-blocking@^2.0.0":
+  "integrity" "sha1-BF+XgtARrppoA93TgrJDkrPYkPc="
+  "resolved" "http://registry.npm.souche-inc.com/set-blocking/download/set-blocking-2.0.0.tgz"
+  "version" "2.0.0"
+
+"signal-exit@^3.0.0", "signal-exit@^3.0.2":
+  "integrity" "sha1-JOYwxLDwP+pEaivSmeYrSmyo0K8="
+  "resolved" "http://registry.npm.souche-inc.com/signal-exit/download/signal-exit-3.0.6.tgz"
+  "version" "3.0.6"
+
+"sort-keys-length@^1.0.0":
+  "integrity" "sha1-nLb09OnkgVWmqgZx7dM2/xR5oYg="
+  "resolved" "https://registry.npmjs.org/sort-keys-length/-/sort-keys-length-1.0.1.tgz"
+  "version" "1.0.1"
   dependencies:
-    safe-buffer "~5.2.0"
+    "sort-keys" "^1.0.0"
 
-strip-ansi@^6.0.0, strip-ansi@^6.0.1:
-  version "6.0.1"
-  resolved "http://registry.npm.souche-inc.com/strip-ansi/download/strip-ansi-6.0.1.tgz"
-  integrity sha1-nibGPTD1NEPpSJSVshBdN7Z6hdk=
+"sort-keys@^1.0.0":
+  "integrity" "sha1-RBttTTRnmPG05J6JIK37oOVD+a0="
+  "resolved" "https://registry.npmjs.org/sort-keys/-/sort-keys-1.1.2.tgz"
+  "version" "1.1.2"
   dependencies:
-    ansi-regex "^5.0.1"
+    "is-plain-obj" "^1.0.0"
 
-supports-color@^7.1.0:
-  version "7.2.0"
-  resolved "http://registry.npm.souche-inc.com/supports-color/download/supports-color-7.2.0.tgz"
-  integrity sha1-G33NyzK4E4gBs+R4umpRyqiWSNo=
+"sort-keys@^2.0.0":
+  "integrity" "sha1-ZYU1WEhh7JfXMNbPQYIuH1ZoQSg="
+  "resolved" "https://registry.npmjs.org/sort-keys/-/sort-keys-2.0.0.tgz"
+  "version" "2.0.0"
   dependencies:
-    has-flag "^4.0.0"
+    "is-plain-obj" "^1.0.0"
 
-through@^2.3.6:
-  version "2.3.8"
-  resolved "http://registry.npm.souche-inc.com/through/download/through-2.3.8.tgz"
-  integrity sha1-DdTJ/6q8NXlgsbckEV1+Doai4fU=
+"strict-uri-encode@^1.0.0":
+  "integrity" "sha1-J5siXfHVgrH1TmWt3UNS4Y+qBxM="
+  "resolved" "https://registry.npmjs.org/strict-uri-encode/-/strict-uri-encode-1.1.0.tgz"
+  "version" "1.1.0"
 
-tmp@^0.0.33:
-  version "0.0.33"
-  resolved "http://registry.npm.souche-inc.com/tmp/download/tmp-0.0.33.tgz"
-  integrity sha1-bTQzWIl2jSGyvNoKonfO07G/rfk=
+"string_decoder@^1.1.1":
+  "integrity" "sha1-QvEUWUpGzxqOMLCoT1bHjD7awh4="
+  "resolved" "http://registry.npm.souche-inc.com/string_decoder/download/string_decoder-1.3.0.tgz"
+  "version" "1.3.0"
   dependencies:
-    os-tmpdir "~1.0.2"
+    "safe-buffer" "~5.2.0"
 
-tslib@~2.1.0:
-  version "2.1.0"
-  resolved "http://registry.npm.souche-inc.com/tslib/download/tslib-2.1.0.tgz"
-  integrity sha1-2mCGDxwuyqVwOrfTm8Bba/mIuXo=
-
-type-fest@^0.21.3:
-  version "0.21.3"
-  resolved "http://registry.npm.souche-inc.com/type-fest/download/type-fest-0.21.3.tgz"
-  integrity sha1-0mCiSwGYQ24TP6JqUkptZfo7Ljc=
-
-universalify@^2.0.0:
-  version "2.0.0"
-  resolved "http://registry.npm.souche-inc.com/universalify/download/universalify-2.0.0.tgz"
-  integrity sha1-daSYTv7cSwiXXFrrc/Uw0C3yVxc=
-
-util-deprecate@^1.0.1:
-  version "1.0.2"
-  resolved "http://registry.npm.souche-inc.com/util-deprecate/download/util-deprecate-1.0.2.tgz"
-  integrity sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
-
-wcwidth@^1.0.1:
-  version "1.0.1"
-  resolved "http://registry.npm.souche-inc.com/wcwidth/download/wcwidth-1.0.1.tgz"
-  integrity sha1-8LDc+RW8X/FSivrbLA4XtTLaL+g=
+"string_decoder@~1.1.1":
+  "integrity" "sha512-n/ShnvDi6FHbbVfviro+WojiFzv+s8MPMHBczVePfUpDJLwoLT0ht1l4YwBCbi8pJAveEEdnkHyPyTP/mzRfwg=="
+  "resolved" "https://registry.npmjs.org/string_decoder/-/string_decoder-1.1.1.tgz"
+  "version" "1.1.1"
   dependencies:
-    defaults "^1.0.3"
+    "safe-buffer" "~5.1.0"
 
-wide-align@^1.1.2:
-  version "1.1.5"
-  resolved "http://registry.npm.souche-inc.com/wide-align/download/wide-align-1.1.5.tgz"
-  integrity sha1-3x1MIGhUNp7PPJpImPGyP72dFdM=
+"string-width@^1.0.2 || 2 || 3 || 4", "string-width@^4.1.0", "string-width@^4.2.3":
+  "integrity" "sha1-JpxxF9J7Ba0uU2gwqOyJXvnG0BA="
+  "resolved" "http://registry.npm.souche-inc.com/string-width/download/string-width-4.2.3.tgz"
+  "version" "4.2.3"
   dependencies:
-    string-width "^1.0.2 || 2 || 3 || 4"
+    "emoji-regex" "^8.0.0"
+    "is-fullwidth-code-point" "^3.0.0"
+    "strip-ansi" "^6.0.1"
 
-yallist@^4.0.0:
-  version "4.0.0"
-  resolved "http://registry.npm.souche-inc.com/yallist/download/yallist-4.0.0.tgz"
-  integrity sha1-m7knkNnA7/7GO+c1GeEaNQGaOnI=
+"strip-ansi@^6.0.0", "strip-ansi@^6.0.1":
+  "integrity" "sha1-nibGPTD1NEPpSJSVshBdN7Z6hdk="
+  "resolved" "http://registry.npm.souche-inc.com/strip-ansi/download/strip-ansi-6.0.1.tgz"
+  "version" "6.0.1"
+  dependencies:
+    "ansi-regex" "^5.0.1"
+
+"strip-dirs@^2.0.0":
+  "integrity" "sha512-JOCxOeKLm2CAS73y/U4ZeZPTkE+gNVCzKt7Eox84Iej1LT/2pTWYpZKJuxwQpvX1LiZb1xokNR7RLfuBAa7T3g=="
+  "resolved" "https://registry.npmjs.org/strip-dirs/-/strip-dirs-2.1.0.tgz"
+  "version" "2.1.0"
+  dependencies:
+    "is-natural-number" "^4.0.1"
+
+"strip-outer@^1.0.0":
+  "integrity" "sha512-k55yxKHwaXnpYGsOzg4Vl8+tDrWylxDEpknGjhTiZB8dFRU5rTo9CAzeycivxV3s+zlTKwrs6WxMxR95n26kwg=="
+  "resolved" "https://registry.npmjs.org/strip-outer/-/strip-outer-1.0.1.tgz"
+  "version" "1.0.1"
+  dependencies:
+    "escape-string-regexp" "^1.0.2"
+
+"supports-color@^7.1.0":
+  "integrity" "sha1-G33NyzK4E4gBs+R4umpRyqiWSNo="
+  "resolved" "http://registry.npm.souche-inc.com/supports-color/download/supports-color-7.2.0.tgz"
+  "version" "7.2.0"
+  dependencies:
+    "has-flag" "^4.0.0"
+
+"tar-stream@^1.5.2":
+  "integrity" "sha512-rzS0heiNf8Xn7/mpdSVVSMAWAoy9bfb1WOTYC78Z0UQKeKa/CWS8FOq0lKGNa8DWKAn9gxjCvMLYc5PGXYlK2A=="
+  "resolved" "https://registry.npmjs.org/tar-stream/-/tar-stream-1.6.2.tgz"
+  "version" "1.6.2"
+  dependencies:
+    "bl" "^1.0.0"
+    "buffer-alloc" "^1.2.0"
+    "end-of-stream" "^1.0.0"
+    "fs-constants" "^1.0.0"
+    "readable-stream" "^2.3.0"
+    "to-buffer" "^1.1.1"
+    "xtend" "^4.0.0"
+
+"through@^2.3.6", "through@^2.3.8":
+  "integrity" "sha1-DdTJ/6q8NXlgsbckEV1+Doai4fU="
+  "resolved" "http://registry.npm.souche-inc.com/through/download/through-2.3.8.tgz"
+  "version" "2.3.8"
+
+"timed-out@^4.0.1":
+  "integrity" "sha1-8y6srFoXW+ol1/q1Zas+2HQe9W8="
+  "resolved" "https://registry.npmjs.org/timed-out/-/timed-out-4.0.1.tgz"
+  "version" "4.0.1"
+
+"tmp@^0.0.33":
+  "integrity" "sha1-bTQzWIl2jSGyvNoKonfO07G/rfk="
+  "resolved" "http://registry.npm.souche-inc.com/tmp/download/tmp-0.0.33.tgz"
+  "version" "0.0.33"
+  dependencies:
+    "os-tmpdir" "~1.0.2"
+
+"to-buffer@^1.1.1":
+  "integrity" "sha512-lx9B5iv7msuFYE3dytT+KE5tap+rNYw+K4jVkb9R/asAb+pbBSM17jtunHplhBe6RRJdZx3Pn2Jph24O32mOVg=="
+  "resolved" "https://registry.npmjs.org/to-buffer/-/to-buffer-1.1.1.tgz"
+  "version" "1.1.1"
+
+"trim-repeated@^1.0.0":
+  "integrity" "sha1-42RqLqTokTEr9+rObPsFOAvAHCE="
+  "resolved" "https://registry.npmjs.org/trim-repeated/-/trim-repeated-1.0.0.tgz"
+  "version" "1.0.0"
+  dependencies:
+    "escape-string-regexp" "^1.0.2"
+
+"tslib@~2.1.0":
+  "integrity" "sha1-2mCGDxwuyqVwOrfTm8Bba/mIuXo="
+  "resolved" "http://registry.npm.souche-inc.com/tslib/download/tslib-2.1.0.tgz"
+  "version" "2.1.0"
+
+"tunnel-agent@^0.6.0":
+  "integrity" "sha1-J6XeoGs2sEoKmWZ3SykIaPD8QP0="
+  "resolved" "https://registry.npmjs.org/tunnel-agent/-/tunnel-agent-0.6.0.tgz"
+  "version" "0.6.0"
+  dependencies:
+    "safe-buffer" "^5.0.1"
+
+"type-fest@^0.21.3":
+  "integrity" "sha1-0mCiSwGYQ24TP6JqUkptZfo7Ljc="
+  "resolved" "http://registry.npm.souche-inc.com/type-fest/download/type-fest-0.21.3.tgz"
+  "version" "0.21.3"
+
+"unbzip2-stream@^1.0.9":
+  "integrity" "sha512-mlExGW4w71ebDJviH16lQLtZS32VKqsSfk80GCfUlwT/4/hNRFsoscrF/c++9xinkMzECL1uL9DDwXqFWkruPg=="
+  "resolved" "https://registry.npmjs.org/unbzip2-stream/-/unbzip2-stream-1.4.3.tgz"
+  "version" "1.4.3"
+  dependencies:
+    "buffer" "^5.2.1"
+    "through" "^2.3.8"
+
+"universalify@^2.0.0":
+  "integrity" "sha1-daSYTv7cSwiXXFrrc/Uw0C3yVxc="
+  "resolved" "http://registry.npm.souche-inc.com/universalify/download/universalify-2.0.0.tgz"
+  "version" "2.0.0"
+
+"url-parse-lax@^3.0.0":
+  "integrity" "sha1-FrXK/Afb42dsGxmZF3gj1lA6yww="
+  "resolved" "https://registry.npmjs.org/url-parse-lax/-/url-parse-lax-3.0.0.tgz"
+  "version" "3.0.0"
+  dependencies:
+    "prepend-http" "^2.0.0"
+
+"url-to-options@^1.0.1":
+  "integrity" "sha1-FQWgOiiaSMvXpDTvuu7FBV9WM6k="
+  "resolved" "https://registry.npmjs.org/url-to-options/-/url-to-options-1.0.1.tgz"
+  "version" "1.0.1"
+
+"util-deprecate@^1.0.1", "util-deprecate@~1.0.1":
+  "integrity" "sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8="
+  "resolved" "http://registry.npm.souche-inc.com/util-deprecate/download/util-deprecate-1.0.2.tgz"
+  "version" "1.0.2"
+
+"wcwidth@^1.0.1":
+  "integrity" "sha1-8LDc+RW8X/FSivrbLA4XtTLaL+g="
+  "resolved" "http://registry.npm.souche-inc.com/wcwidth/download/wcwidth-1.0.1.tgz"
+  "version" "1.0.1"
+  dependencies:
+    "defaults" "^1.0.3"
+
+"wide-align@^1.1.2":
+  "integrity" "sha1-3x1MIGhUNp7PPJpImPGyP72dFdM="
+  "resolved" "http://registry.npm.souche-inc.com/wide-align/download/wide-align-1.1.5.tgz"
+  "version" "1.1.5"
+  dependencies:
+    "string-width" "^1.0.2 || 2 || 3 || 4"
+
+"wrappy@1":
+  "integrity" "sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8="
+  "resolved" "https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz"
+  "version" "1.0.2"
+
+"xtend@^4.0.0":
+  "integrity" "sha512-LKYU1iAXJXUgAXn9URjiu+MWhyUXHsvfp7mcuYm9dSUKK0/CjtrUwFAxD82/mCWbtLsGjFIad0wIsod4zrTAEQ=="
+  "resolved" "https://registry.npmjs.org/xtend/-/xtend-4.0.2.tgz"
+  "version" "4.0.2"
+
+"yallist@^4.0.0":
+  "integrity" "sha1-m7knkNnA7/7GO+c1GeEaNQGaOnI="
+  "resolved" "http://registry.npm.souche-inc.com/yallist/download/yallist-4.0.0.tgz"
+  "version" "4.0.0"
+
+"yauzl@^2.4.2":
+  "integrity" "sha1-x+sXyT4RLLEIb6bY5R+wZnt5pfk="
+  "resolved" "https://registry.npmjs.org/yauzl/-/yauzl-2.10.0.tgz"
+  "version" "2.10.0"
+  dependencies:
+    "buffer-crc32" "~0.2.3"
+    "fd-slicer" "~1.1.0"
