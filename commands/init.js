@@ -2,10 +2,17 @@ const path = require("path");
 const inquirer = require("inquirer");
 const Command = require("./command");
 const Package = require("../lib/package");
-const checkTargetDir = require("../lib/checkTargetDir");
-const { getRepoList } = require("../lib/http");
-const { withSpinner } = require("../lib/spinner");
+const checkTargetPathExist = require("../lib/checkTargetPathExist");
+const { getRepoList } = require("../lib/utils/getRepoInfo");
+const { withSpinner } = require("../lib/utils/spinner");
 
+/**
+ * @description initCommand创建模板的基本流程
+ * 目录非空检查 ------> inquirer获取命令行输入配置信息 ------> 通过github，restApi获取远程仓库列表 --------> 执行下载逻辑
+ * 下载逻辑：查看本地用户主目录是否存在当前模板，存在，则更新模板，否则重新下载 ------> 根据用户输入的配置信息 ejs动态渲染内容 ----> 将渲染后的文件写入当前
+ * 目录 ----> 开启node子进程，进行依赖安装 ------> 结束
+ *
+ */
 class InitCommand extends Command {
   constructor(projectName) {
     super();
@@ -15,16 +22,16 @@ class InitCommand extends Command {
   }
 
   async init(cliOptions) {
-    // 1. 目录非空检查
-    await checkTargetDir(this.targetPath, cliOptions);
-    // 2. 询问项目信息
+    // 检查目标目录是否存在
+    await checkTargetPathExist(this.targetPath, cliOptions);
+    // 获取用户命令行输入信息
     await this.getProjectInfo();
-    // 3. 获取远程项目模板
+    // 获取远程仓库模板列表
     const templateInfo = await this.getTemplateInfo();
-    // 4. 执行下载逻辑
+    // 执行下载逻辑
     await this.downloadTemplate(templateInfo);
-    // 5. 拷贝项目模板到目标目录，并执行模板渲染逻辑
-    this.copyAndRenderTemplate();
+    // 渲染并拷贝到当前目录
+    this.renderAndCopyTemplate();
   }
 
   resolveTargetDir() {
@@ -67,14 +74,14 @@ class InitCommand extends Command {
     const _package = new Package({
       name: this.projectName,
     });
-    if (template.exist()) {
+    if (_package.exist()) {
       _package.update();
     } else {
       _package.install();
     }
   }
 
-  copyAndRenderTemplate() {}
+  renderAndCopyTemplate() {}
 }
 
 function factory(projectName) {
