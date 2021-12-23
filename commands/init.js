@@ -31,19 +31,11 @@ class InitCommand extends Command {
       // 检查目标目录是否存在
       await checkTargetPathExist(this.targetPath, cliOptions);
       // 获取远程项目模板列表
-      const templateInfo = await this.getTemplateInfo();
-
-      if (templateInfo && templateInfo.length) {
-        // 执行创建
-        await this.create();
-      } else {
-        log.error("暂无可用的模板，请上传后重试~");
-        process.exit(0);
-      }
-      // 安装依赖
-      await install();
-      // 启动项目
-      await startup();
+      await this.getTemplateInfo();
+      // 执行创建
+      await this.create();
+      // 安装依赖并启动程序
+      await this.installDepsAndStartup();
     } catch (err) {
       log.error(err);
     }
@@ -55,10 +47,20 @@ class InitCommand extends Command {
   }
 
   async getTemplateInfo() {
-    const repoList = await withSpinner(getRepoList, {
-      text: "正在获取远程模板信息，请稍等...",
-    })();
-    return repoList;
+    let templateInfo = {};
+    // 获取模板列表
+    const repoList = (templateInfo.repoList = await withSpinner(getRepoList, {
+      text: "正在获取远程模板列表，请稍等...",
+    })());
+    if (repoList && repoList.length > 0) {
+      // 获取版本号
+      templateInfo.varsionList = await withSpinner(getRepoList, {
+        text: "正在获取版本信息，请稍等...",
+      })();
+    } else {
+      return Promise.reject("暂无可用的模板，请上传后再试哦～");
+    }
+    return templateInfo;
   }
 
   async ask(question) {
@@ -66,6 +68,7 @@ class InitCommand extends Command {
     return answers;
   }
 
+  // 核心创建逻辑
   async create() {
     const _package = new Package({
       name: this.projectName,
@@ -81,7 +84,6 @@ class InitCommand extends Command {
     if (!packageRootPath) {
       return;
     }
-
     if (
       fs.existsSync(`${packageRootPath}/${constent.CLI_COINFIG_FILE_NAME}.js`)
     ) {
@@ -98,7 +100,8 @@ class InitCommand extends Command {
       // });
     }
   }
-  async startup() {}
+
+  async installDepsAndStartup() {}
 }
 
 function factory(projectName) {
