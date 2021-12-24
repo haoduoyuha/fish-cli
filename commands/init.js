@@ -4,9 +4,9 @@ const ncp = require("ncp").ncp;
 const log = require("npmlog");
 const fs = require("fs-extra");
 const Command = require("./command");
-const Package = require("../lib/Package");
+const GitPackage = require("../lib/package/git");
 const checkTargetPathExist = require("../lib/checkTargetPathExist");
-const install = require("../lib/utils/install");
+const installDependencies = require("../lib/utils/install");
 const { getRepoList } = require("../lib/utils/getRepoInfo");
 const { withSpinner } = require("../lib/utils/spinner");
 const constent = require("../lib/constent");
@@ -19,6 +19,11 @@ const constent = require("../lib/constent");
  * ----> 结束
  */
 class InitCommand extends Command {
+  cliConfig = {
+    prompt: [],
+    runCommand: "",
+  };
+
   constructor(projectName, prompts) {
     super();
     this.projectName = projectName;
@@ -28,17 +33,27 @@ class InitCommand extends Command {
 
   async init(cliOptions) {
     try {
-      // 检查目标目录是否存在
-      await checkTargetPathExist(this.targetPath, cliOptions);
-      // 获取远程项目模板列表
-      await this.getTemplateInfo();
+      const template = this.prepare(cliOptions);
       // 执行创建
-      await this.create();
-      // 安装依赖并启动程序
-      await this.installDepsAndStartup();
+      await this.create(template);
+      // 安装依赖
+      await installDependencies();
+      // 运行项目
+      await run();
     } catch (err) {
       log.error(err);
     }
+  }
+
+  async prepare(cliOptions) {
+    // 检查目标目录是否存在
+    await checkTargetPathExist(this.targetPath, cliOptions);
+    // 获取远程项目模板列表
+    const templateList = await this.getTemplateInfo();
+    // 选择模板
+    const { template } = await this.ask({});
+
+    return template;
   }
 
   resolveTargetDir() {
@@ -69,8 +84,8 @@ class InitCommand extends Command {
   }
 
   // 核心创建逻辑
-  async create() {
-    const _package = new Package({
+  async create(templateList) {
+    const _package = new GitPackage({
       name: this.projectName,
     });
 
@@ -89,6 +104,9 @@ class InitCommand extends Command {
     ) {
       // 如果有自定义配置文件
       const answers = await this.ask([]);
+      if (answers.useTypescript) {
+        // 使用ts
+      }
       // 拿到结果，通过ejs动态渲染
     } else {
       // 直接拷贝到目标目录
@@ -101,7 +119,9 @@ class InitCommand extends Command {
     }
   }
 
-  async installDepsAndStartup() {}
+  async run() {
+    console.log("运行项目...");
+  }
 }
 
 function factory(projectName) {
