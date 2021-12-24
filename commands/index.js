@@ -1,5 +1,5 @@
-const Command = require("./command");
-const InitCommand = require("./init");
+const Command = require("./Command");
+const InitCommand = require("./Init");
 
 module.exports = function factory(type, ...args) {
   switch (type) {

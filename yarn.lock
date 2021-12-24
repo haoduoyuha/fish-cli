@@ -1268,6 +1268,11 @@ type-fest@^0.21.3:
   resolved "http://registry.npm.souche-inc.com/type-fest/download/type-fest-0.21.3.tgz"
   integrity sha1-0mCiSwGYQ24TP6JqUkptZfo7Ljc=
 
+typescript@^4.5.4:
+  version "4.5.4"
+  resolved "http://registry.npm.souche-inc.com/typescript/download/typescript-4.5.4.tgz#a17d3a0263bf5c8723b9c52f43c5084edf13c2e8"
+  integrity sha1-oX06AmO/XIcjucUvQ8UITt8Twug=
+
 unbzip2-stream@^1.0.9:
   version "1.4.3"
   resolved "https://registry.npmjs.org/unbzip2-stream/-/unbzip2-stream-1.4.3.tgz"
